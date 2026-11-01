@@ -1,15 +1,15 @@
-# trabajo-investigacion — Mapeo Sistemático de Vulnerabilidades y Defensas en LLMs en Producción
+# trabajo-investigacion — Revisión Sistemática de Ataques y Defensas en LLMs en Producción bajo MITRE ATLAS (2023–2026)
 
-> Repositorio de trabajo de investigación para el mapeo sistemático y categorización taxonómica bajo MITRE ATLAS de vectores de ataque y defensas algorítmicas en Modelos de Lenguaje Grande (LLMs) desplegados en entornos de producción.
+> Repositorio académico y metodológico para el desarrollo de la investigación sobre vectores de ataque (Prompt Injection, Jailbreaking, Data Poisoning) y defensas algorítmicas en Modelos de Lenguaje Grande desplegados en producción.
 
 [![Estado](https://img.shields.io/badge/Estado-Activo-success?style=flat-square)](https://github.com/TeVerde29/trabajo-investigacion)
 [![Tipo](https://img.shields.io/badge/Tipo-Scoping_Review-blue?style=flat-square)](https://github.com/TeVerde29/trabajo-investigacion)
 [![Línea](https://img.shields.io/badge/Línea-Ciberseguridad-red?style=flat-square)](https://github.com/TeVerde29/trabajo-investigacion)
 [![Institución](https://img.shields.io/badge/Institución-EPIS--UNU-003366?style=flat-square)](https://github.com/TeVerde29/trabajo-investigacion)
 [![Ciclo](https://img.shields.io/badge/Ciclo-X_(2026--II)-orange?style=flat-square)](https://github.com/TeVerde29/trabajo-investigacion)
-[![Periodo](https://img.shields.io/badge/Periodo-2023--2026-informational?style=flat-square)](https://github.com/TeVerde29/trabajo-investigacion)
+[![Muestra](https://img.shields.io/badge/Registros_Únicos-484-brightgreen?style=flat-square)](https://github.com/TeVerde29/trabajo-investigacion)
 
-El tesista formula la delimitación temática, diseña las cadenas de búsqueda booleana y estructura la matriz de análisis documental; los docentes y revisores de la EPIS-UNU evalúan la pertinencia temática, el sustento en literatura científica indexada y la viabilidad metodológica del proyecto.
+El tesista formula la delimitación temática cuatridimensional, ejecuta las ecuaciones booleanas en bases de datos indexadas y consolida la base de datos de publicaciones científicas; los docentes y revisores de la EPIS-UNU evalúan la pertinencia temática en ciberseguridad, la viabilidad metodológica y el sustento bibliográfico de la propuesta.
 
 ## Tabla de contenidos
 
@@ -21,77 +21,82 @@ El tesista formula la delimitación temática, diseña las cadenas de búsqueda 
 - [Instalación y flujo de trabajo](#instalación-y-flujo-de-trabajo)
 - [Requisitos del sistema](#requisitos-del-sistema)
 - [Pregunta y objetivos de investigación](#pregunta-y-objetivos-de-investigación)
-- [Estrategia de búsqueda bibliográfica](#estrategia-de-búsqueda-bibliográfica)
+- [Estrategia de búsqueda y ecuación construida](#estrategia-de-búsqueda-y-ecuación-construida)
+- [Métricas de recuperación y depuración de datos](#métricas-de-recuperación-y-depuración-de-datos)
+- [Fuentes científicas de soporte](#fuentes-científicas-de-soporte)
 - [Criterios de elegibilidad](#criterios-de-elegibilidad)
-- [Taxonomía de vectores y defensas](#taxonomía-de-vectores-y-defensas)
+- [Taxonomía de vectores y defensas MITRE ATLAS](#taxonomía-de-vectores-y-defensas-mitre-atlas)
 - [Cronograma de trabajo](#cronograma-de-trabajo)
 - [Autor](#autor)
 
 ## Descripción
 
-La integración de modelos fundacionales y modelos de lenguaje grande (LLMs) en sistemas productivos introduce superficies de ataque no contempladas en las arquitecturas de software tradicionales. Incidentes como inyecciones de instrucciones (*prompt injection*), evasión de políticas de alineamiento (*jailbreaking*), envenenamiento de conjuntos de ajuste fino (*data poisoning*) y extracción de pesos o datos de entrenamiento comprometen la confidencialidad, integridad y disponibilidad de las aplicaciones conectadas a agentes o bases de datos vectoriales.
+La integración de modelos de lenguaje grande (LLMs) y arquitecturas de agentes autónomos en aplicaciones productivas introduce riesgos de seguridad críticos que la ciberseguridad perimetral tradicional no puede resolver. A diferencia del software convencional, estos modelos procesan tanto las instrucciones de control del sistema como las entradas de usuarios y fuentes externas a través de un mismo canal de texto en lenguaje natural. Esta característica facilita que usuarios malintencionados ejecuten manipulaciones como la inyección de órdenes (*prompt injection* directo e indirecto), el salto de filtros de seguridad (*jailbreaking*) o el envenenamiento de conjuntos de datos (*data poisoning*).
 
-Este proyecto articula la etapa inicial y de delimitación formal para un mapeo sistemático de literatura (*Scoping Review*), enmarcado en el curso de Trabajo de Investigación del Ciclo X de la Escuela Profesional de Ingeniería de Sistemas de la Universidad Nacional de Ucayali (EPIS-UNU). El trabajo centraliza los descriptores temáticos, las matrices cuatridimensionales de delimitación y las formulaciones booleanas para bases de datos indexadas.
+Este repositorio centraliza los artefactos de delimitación y la base de datos documental del proyecto de fin de carrera en la asignatura Trabajo de Investigación (Ciclo X) de la Escuela Profesional de Ingeniería de Sistemas de la Universidad Nacional de Ucayali (EPIS-UNU). El trabajo formaliza la matriz cuatridimensional institucional en `MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - PEDRO GIOVANNI RICRA FIGUEROA.docx`, la formulación sintáctica de palabras clave en `tema.md` y el acervo de artículos científicos recuperados en `Nuevo Hoja de cálculo de Microsoft Excel.xlsx`.
 
-Las decisiones de diseño metodológico contemplan:
-1. Uso del marco de amenazas adversarias **MITRE ATLAS** (Adversarial Threat Landscape for Artificial-Intelligence Systems) como estándar taxonómico para la clasificación de ataques.
-2. Formulación de preguntas de investigación estructuradas bajo el esquema PICO/CIMO.
-3. Ventana temporal acotada a publicaciones entre 2023 y 2026 para capturar avances post-despliegue masivo de arquitecturas basadas en Transformers.
-4. Trazabilidad completa de la evidencia mediante matrices estandarizadas en documentos `.docx` y registros de búsqueda en texto plano estructurado en `tema.md`.
+Las decisiones clave del diseño metodológico comprenden:
+1. Adopción del estándar **MITRE ATLAS** (*Adversarial Threat Landscape for Artificial-Intelligence Systems*) como marco taxonómico para clasificar las técnicas adversarias documentadas.
+2. Formulación de una ecuación booleana triaxial común probada y ejecutada en tres bases de datos indexadas: Scopus, IEEE Xplore y EBSCO Host.
+3. Ventana temporal acotada a publicaciones comprendidas entre 2023 y 2026, capturando el periodo de despliegue real de modelos generativos en producción.
+4. Protocolo estricto de depuración con exclusión lingüística y eliminación sistemática de duplicados entre bases, consolidando un universo de 484 registros únicos.
 
 ## Repositorio y recursos
 
 | Componente | Recurso | Detalle |
 | :--- | :--- | :--- |
 | Control de versiones | GitHub | [TeVerde29/trabajo-investigacion](https://github.com/TeVerde29/trabajo-investigacion) |
-| Rama principal | `main` | Rama de seguimiento de documentación y artefactos |
+| Rama principal | `main` | Seguimiento de matrices, datos tabulares y especificaciones |
 | Protocolo de clonación | HTTPS / SSH | `https://github.com/TeVerde29/trabajo-investigacion.git` |
 
 ## Características principales
 
-- **Delimitación cuatridimensional validada:** Definición explícita de ejes temático-tecnológico, espacial, temporal (semestre 2026-II) y unidad de análisis en `MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - PEDRO GIOVANNI RICRA FIGUEROA.docx`.
-- **Ecuación booleana triaxial para Scopus e IEEE:** Segmentación de términos en tres dimensiones lógicas: objeto de estudio (modelos generativos), superficie ofensiva (ataques/vulnerabilidades) y contramedidas (defensas/alineamiento).
-- **Taxonomía orientada a MITRE ATLAS:** Mapeo de vectores de evasión y compromiso frente a defensas algorítmicas, guardrails de entrada/salida y técnicas de *safety alignment*.
-- **Criterios de elegibilidad estandarizados:** Filtros de inclusión para artículos arbitrados por pares y revisiones empíricas en Scopus, IEEE Xplore, ScienceDirect, SciELO y EBSCO.
-- **Trazabilidad de acreditación institucional:** Respaldo de acceso a bases de datos científicas registrado en `Evidencia creación de cuenta - Pedro Ricra Figueroa.pdf`.
+- **Delimitación formal completa:** Secciones I a V desarrolladas íntegramente en la matriz institucional, con delimitación espacial en la UNU (Pucallpa) y temporal en el semestre 2026-II.
+- **Universo bibliográfico de 484 registros únicos:** Dataset depurado a partir de 567 registros iniciales de Scopus (470), IEEE Xplore (29) y EBSCO Host (68).
+- **Control de duplicados inter-base:** Identificación y remoción de 82 duplicados (25 en IEEE y 57 en EBSCO) tomando Scopus como base primaria.
+- **Filtrado por criterio lingüístico:** Exclusión de 1 publicación en idioma ucraniano en EBSCO Host por incumplimiento del criterio de inclusión (inglés/español).
+- **Sustento en literatura indexada reciente:** Selección de tres revisiones de alto impacto (2026) en conferencias y revistas IEEE/Scopus directamente vinculadas al tema.
+- **Validación de autoevaluación:** Cumplimiento verificado de los cuatro criterios de la lista de cotejo de la Sección V para revisión docente.
 
 ## Stack tecnológico y herramientas
 
 | Capa | Herramienta / Estándar | Función |
 | :--- | :--- | :--- |
-| Especificación metodológica | Markdown (`.md`) | Redacción de palabras clave, operadores booleanos y diseño de scoping review en `tema.md` |
-| Matriz institucional | Microsoft Word OpenXML (`.docx`) | Documentación formal de delimitación según plantilla oficial EPIS-UNU |
-| Evidencia documental | Formato PDF | Comprobante institucional de cuenta y acceso a fuentes bibliográficas |
-| Marco de ciberseguridad | MITRE ATLAS | Taxonomía para categorización de tácticas, técnicas y procedimientos (TTP) en IA |
-| Bases de datos bibliográficas | Scopus, IEEE Xplore, SciELO, ScienceDirect, EBSCO | Fuentes de extracción de literatura científica arbitrada |
-| Control de versiones | Git / GitHub | Historial de versiones y distribución del trabajo académico |
+| Formulación de búsqueda | Markdown (`.md`) | Documentación de descriptores, pregunta PICO y parámetros en `tema.md` |
+| Matriz institucional | Microsoft Word OpenXML (`.docx`) | Documento oficial con las Secciones I a V completas para revisión académica |
+| Gestión y depuración de datos | Microsoft Excel (`.xlsx`) | Base de datos con metadatos de las publicaciones en 3 hojas: Scopus, IEEE y EBSCO HOST |
+| Respaldo de acceso institucional | Documento PDF | Comprobante de cuenta en bases de datos científicas acreditadas |
+| Marco de ciberseguridad | MITRE ATLAS | Taxonomía estándar para clasificación de amenazas y vectores de ataque en IA |
+| Fuentes de literatura científica | Scopus, IEEE Xplore, EBSCO Host | Plataformas de recuperación de artículos y revisiones por pares |
+| Control de versiones | Git / GitHub | Trazabilidad del repositorio y preservación de cambios |
 
 ## Estructura del repositorio
 
 ```text
 trabajo-investigacion/
-├── .git/                                                                 # Metadatos del repositorio Git
-├── Evidencia creación de cuenta - Pedro Ricra Figueroa.pdf               # Respaldo de registro en base de datos científica
-├── MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - original.docx     # Plantilla en blanco provista por la asignatura
-├── MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - PEDRO GIOVANNI RICRA FIGUEROA.docx # Matriz de delimitación completada
-├── Matriz_delimitacion_tematica_redactada - ejemplo.docx                 # Documento de referencia y formato muestra
-├── README.md                                                             # Documentación técnica y metodológica principal
-└── tema.md                                                               # Especificación técnica: PICO, keywords y Scopus
+├── .git/                                                                 # Metadatos del repositorio Git local
+├── Evidencia creación de cuenta - Pedro Ricra Figueroa.pdf               # Respaldo institucional de cuenta en base de datos
+├── MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - original.docx     # Formato en blanco provisto por la cátedra EPIS-UNU
+├── MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - PEDRO GIOVANNI RICRA FIGUEROA.docx # Matriz completada (Secciones I a V)
+├── Matriz_delimitacion_tematica_redactada - ejemplo.docx                 # Documento de referencia metodológica del curso
+├── Nuevo Hoja de cálculo de Microsoft Excel.xlsx                        # Dataset de publicaciones (Scopus, IEEE, EBSCO)
+├── README.md                                                             # Documentación técnica, metodológica y operativa
+└── tema.md                                                               # Esquema base: eje temático, PICO y objetivos
 ```
 
 Decisiones sobre la estructura:
-- Separación de la plantilla base (`... - original.docx`) y el documento de trabajo del estudiante (`... - PEDRO GIOVANNI RICRA FIGUEROA.docx`) para preservar el formato institucional.
-- Archivo `tema.md` como fuente de verdad en texto plano editable para la construcción incremental de ecuaciones booleanas sin depender de procesadores de texto binarios.
-- Archivo de evidencia en formato PDF para garantizar la inmutabilidad de las credenciales y registros requeridos por la cátedra.
+- `MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - PEDRO GIOVANNI RICRA FIGUEROA.docx` contiene la versión de trabajo del estudiante preservando la plantilla original intacta en el archivo `... - original.docx`.
+- `Nuevo Hoja de cálculo de Microsoft Excel.xlsx` almacena las descargas bibliográficas sin alterar los identificadores ni los enlaces de origen de cada base.
+- `tema.md` actúa como archivo de configuración conceptual de rápida lectura para alinear la pregunta PICO y los objetivos.
 
 ## Instalación y flujo de trabajo
 
 ### Prerrequisitos
 
 - Git instalado en el sistema (`git --version` >= 2.30).
-- Procesador de texto compatible con formato `.docx` (Microsoft Word, LibreOffice Writer o Google Docs).
-- Lector de archivos PDF.
-- Editor de texto con soporte para Markdown (VS Code, Obsidian o Neovim).
+- Suite ofimática compatible con `.docx` y `.xlsx` (Microsoft Office 2016+, LibreOffice 7.0+ o Google Docs/Sheets).
+- Lector de documentos PDF.
+- Editor de texto plano para Markdown (VS Code, Cursor o Neovim).
 
 ### Obtención del repositorio
 
@@ -102,98 +107,123 @@ cd trabajo-investigacion
 
 ### Flujo metodológico de investigación
 
-1. **Revisar la formulación inicial:** Consultar [tema.md](file:///c:/Users/hikih/Documents/Repositorios/trabajo-investigacion/tema.md) para verificar la alineación entre la pregunta PICO/CIMO, el objetivo general y las dimensiones de estudio.
-2. **Consultar la matriz institucional:** Abrir y editar [MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - PEDRO GIOVANNI RICRA FIGUEROA.docx](file:///c:/Users/hikih/Documents/Repositorios/trabajo-investigacion/MATRIZ%20DE%20DELIMITACI%C3%93N%20TEM%C3%81TICA%20DE%20INVESTIGACI%C3%93N%20-%20PEDRO%20GIOVANNI%20RICRA%20FIGUEROA.docx) para actualizar las secciones I a V.
-3. **Ejecutar las ecuaciones booleanas:** Copiar las cadenas de búsqueda de [tema.md](file:///c:/Users/hikih/Documents/Repositorios/trabajo-investigacion/tema.md) en Scopus o IEEE Xplore empleando los operadores `AND` y `OR`.
-4. **Filtrar por criterios de elegibilidad:** Aplicar los límites de fecha (2023-2026), idioma (español e inglés) y tipo de documento (artículos de revista y actas de conferencia arbitradas).
-5. **Extraer registros y bibliografía:** Exportar los metadatos en formato BibTeX o CSV para su posterior análisis taxonómico con MITRE ATLAS.
+1. **Revisar la matriz temática:** Abrir [MATRIZ DE DELIMITACIÓN TEMÁTICA DE INVESTIGACIÓN - PEDRO GIOVANNI RICRA FIGUEROA.docx](file:///c:/Users/hikih/Documents/Repositorios/trabajo-investigacion/MATRIZ%20DE%20DELIMITACI%C3%93N%20TEM%C3%81TICA%20DE%20INVESTIGACI%C3%93N%20-%20PEDRO%20GIOVANNI%20RICRA%20FIGUEROA.docx) para verificar la coherencia entre las Secciones I a V.
+2. **Consultar la base de datos de publicaciones:** Abrir [Nuevo Hoja de cálculo de Microsoft Excel.xlsx](file:///c:/Users/hikih/Documents/Repositorios/trabajo-investigacion/Nuevo%20Hoja%20de%20c%C3%A1lculo%20de%20Microsoft%20Excel.xlsx) para examinar los registros organizados en las hojas `Scopus`, `IEEE` y `EBSCO HOST`.
+3. **Fase de cribado por título y resumen (*screening*):** Evaluar los 484 registros únicos contra los criterios de elegibilidad definidos.
+4. **Clasificación bajo MITRE ATLAS:** Mapear cada artículo aceptado según la táctica adversaria abordada (ej. *Execution*, *Persistence*, *Defense Evasion*) y el tipo de defensa propuesta.
+5. **Síntesis y redacción:** Consolidar los resultados en el informe formal de revisión sistemática para el curso.
 
 ## Requisitos del sistema
 
 | Componente | Requisito mínimo | Propósito |
 | :--- | :--- | :--- |
-| Sistema operativo | Windows 10/11, macOS 12+ o Linux (cualquier distribución) | Entorno de edición y gestión de archivos |
-| Cliente Git | Git 2.30 o superior | Sincronización con el repositorio remoto |
-| Suite ofimática | MS Word 2016+, LibreOffice 7.0+ o visor OpenXML | Apertura y edición de matrices `.docx` |
-| Navegador web | Chrome, Firefox o Edge actualizado | Acceso a portales institucionales de Scopus e IEEE |
-| Conexión a red | Acceso a internet con proxy/VPN institucional UNU | Descarga de artículos indexados sin muro de pago |
+| Sistema operativo | Windows 10/11, macOS 12+ o Linux x86_64 | Entorno local de edición y análisis |
+| Cliente Git | Git 2.30 o superior | Control de versiones y sincronización con GitHub |
+| Procesador de texto | Word 2016 o LibreOffice Writer | Edición de la matriz oficial `.docx` |
+| Hoja de cálculo | Excel 2016 o LibreOffice Calc | Procesamiento de metadatos en `Nuevo Hoja de cálculo...xlsx` |
+| Conexión a red | Acceso a internet con cuenta institucional UNU | Consulta y verificación de enlaces persistentes y DOIs |
 
 ## Pregunta y objetivos de investigación
 
-### Pregunta orientadora (Esquema PICO / CIMO)
+### Pregunta orientadora (Formulación PICO / CIMO)
 
 > ¿Cuáles son las principales vulnerabilidades y técnicas de evasión de seguridad en Modelos de Lenguaje Grande (LLMs) desplegados en producción?
 
-- **Población / Objeto (P):** Modelos de lenguaje grande desplegados en producción e integrados con sistemas externos.
-- **Intervención / Fenómeno (I):** Vulnerabilidades emergentes (Prompt Injection, Jailbreaking, Data Poisoning, extracción de modelos).
-- **Comparación / Contexto (C):** Entornos productivos frente a entornos de evaluación de laboratorio bajo marcos de mitigación.
-- **Resultado (*Outcome*) (O):** Taxonomía de riesgos clasificada bajo MITRE ATLAS y efectividad de las defensas algorítmicas actuales.
+- **Población / Objeto (P):** Modelos de lenguaje grande desplegados en sistemas reales y agentes autónomos.
+- **Intervención / Fenómeno (I):** Vulnerabilidades y vectores de ataque (Prompt Injection, Jailbreaking, Data Poisoning).
+- **Comparación / Contexto (C):** Entornos productivos frente a evaluaciones sintéticas de laboratorio bajo marcos de mitigación.
+- **Resultado (*Outcome*) (O):** Clasificación taxonómica bajo MITRE ATLAS y evaluación de la efectividad de las defensas algorítmicas.
 
 ### Objetivo general
 
-Identificar y categorizar los vectores de ataque contra LLMs (Prompt Injection, Data Poisoning, Jailbreaking) y las defensas algorítmicas actuales documentadas en la literatura científica entre 2023 y 2026.
+Identificar y categorizar los vectores de ataque contra LLMs (Prompt Injection, Data Poisoning, Jailbreaking) y las defensas algorítmicas actuales documentadas en la literatura científica publicada entre 2023 y 2026.
 
-## Estrategia de búsqueda bibliográfica
+## Estrategia de búsqueda y ecuación construida
 
-La estrategia de recuperación de información divide el espacio léxico en tres bloques combinados con el operador booleano `AND`:
-
-```text
-(Bloque 1: Objeto de estudio) AND (Bloque 2: Ataques y vulnerabilidades) AND (Bloque 3: Defensas y marcos)
-```
-
-### Descriptores por bloque
+La recuperación de literatura se estructura en tres bloques combinados con el operador lógico `AND`:
 
 ```text
-Bloque 1: Objeto de estudio
-- "large language model*"
-- LLM*
-- "foundation model*"
-- "generative AI"
-- chatbot*
-
-Bloque 2: Ataques y vulnerabilidades
-- "prompt injection"
-- jailbreak*
-- "data poisoning"
-- "adversarial attack*"
-- "adversarial machine learning"
-- "model extraction"
-- "backdoor attack*"
-- "training data extraction"
-
-Bloque 3: Defensas y marcos de seguridad
-- "LLM security"
-- "AI red teaming"
-- "red team*"
-- defense*
-- "MITRE ATLAS"
-- guardrail*
-- "safety alignment"
+("large language model*" OR "LLM*" OR "foundation model*") 
+AND 
+("prompt injection" OR "jailbreak*" OR "data poisoning" OR "adversarial attack*") 
+AND 
+("LLM security" OR "guardrail*" OR "safety alignment" OR "MITRE ATLAS")
 ```
 
-### Ecuación de búsqueda formulada para Scopus
+### Descriptores especializados consignados en la matriz
+
+* **Español:** Ciberseguridad; modelos de lenguaje grande; modelos fundacionales; inyección de prompts; evasión de restricciones (jailbreak); envenenamiento de datos; aprendizaje automático adversario; defensas algorítmicas; alineamiento de seguridad; MITRE ATLAS.
+* **Inglés (IEEE / UNESCO):** Cybersecurity; large language models; foundation models; prompt injection; jailbreak; data poisoning; adversarial machine learning; algorithmic defenses; safety alignment; AI red teaming; guardrails; MITRE ATLAS.
+* **Operadores utilizados:** `AND` para intersección de conceptos, `OR` para sinónimos y variantes, asterisco (`*`) para capturar derivaciones morfológicas.
+
+## Métricas de recuperación y depuración de datos
+
+El proceso de extracción y limpieza documental ejecutado en [Nuevo Hoja de cálculo de Microsoft Excel.xlsx](file:///c:/Users/hikih/Documents/Repositorios/trabajo-investigacion/Nuevo%20Hoja%20de%20c%C3%A1lculo%20de%20Microsoft%20Excel.xlsx) arrojó las siguientes métricas para el diagrama de flujo metodológico:
 
 ```text
-TITLE-ABS-KEY(
-  ("large language model*" OR LLM* OR "foundation model*" OR "generative AI" OR chatbot*)
-  AND
-  ("prompt injection" OR jailbreak* OR "data poisoning" OR "adversarial attack*" OR "adversarial machine learning" OR "model extraction" OR "backdoor attack*" OR "training data extraction")
-  AND
-  ("LLM security" OR "AI red teaming" OR "red team*" OR defense* OR "MITRE ATLAS" OR guardrail* OR "safety alignment")
-) AND PUBYEAR > 2022 AND PUBYEAR < 2027
+  [ Registros brutos descargados: 567 ]
+  ├── Scopus: 470
+  ├── EBSCO HOST: 68
+  └── IEEE Xplore: 29
+               │
+               ▼
+  [ Filtrado por idioma ] ──> Exclusión de 1 registro en ucraniano (EBSCO HOST, fila 68)
+               │
+               ▼
+  [ Registros en inglés/español: 566 ]
+               │
+               ▼
+  [ Control de duplicados ] ──> Remoción de 82 duplicados
+  ├── IEEE duplicados con Scopus: 25
+  ├── EBSCO duplicados con Scopus: 40
+  └── EBSCO duplicados internos: 17
+               │
+               ▼
+  [ Muestra final de registros únicos para cribado: 484 ]
+  ├── Provenientes de Scopus: 470
+  ├── Aportes únicos de EBSCO HOST: 10
+  └── Aportes únicos de IEEE Xplore: 4
 ```
+
+### Artículos únicos aportados por IEEE Xplore (4 registros conservados)
+1. *Adversarial Machine Learning: A 20-Year Survey of Attacks, Defenses, and Standards* (Fila 13)
+2. *TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport* (Fila 15)
+3. *Are Large Language Models Trained Fairly Across Demographic Categories?* (Fila 17)
+4. *PromptGuard: Soft Prompt-Guided Unsafe Content Moderation for Text-to-Image Models* (Fila 28)
+
+### Artículos únicos aportados por EBSCO HOST (10 registros conservados)
+1. *Can LLMs Have a Fever? Investigating the Effects of Temperature on LLM Security* (Fila 2)
+2. *Securing Retrieval-Augmented Generation Pipelines: A Comprehensive Framework* (Fila 4)
+3. *Anthropic unveils new framework to block harmful content from AI models* (Fila 5)
+4. *Can LLMs deeply detect complex malicious queries? A framework for jailbreaking via obfuscating intent* (Fila 6)
+5. *How 'dark LLMs' produce harmful outputs, despite guardrails* (Fila 7)
+6. *NETSKOPE UNVEILS NETSKOPE ONE AI SECURITY, DELIVERING HIGH-PERFORMANCE PROTECTION...* (Fila 20)
+7. *Securing Enterprise Data for LLM-Powered Applications: A Reference Architecture...* (Fila 24)
+8. *Copilot 'SearchLeak' Attack Allows 1-Click Data Theft* (Fila 31)
+9. *Europe's Multilingual Reality Exposes AI Security Gaps* (Fila 36)
+10. *Paired response final divergence signatures of jailbreak vulnerability in large language models* (Fila 47)
+
+## Fuentes científicas de soporte
+
+Artículos clave indexados (2026) incorporados en la Sección IV de la matriz de delimitación:
+
+| N° | Cita Bibliográfica (Estilo APA 7ma ed.) | Base de Datos | Aporte Principal al Tema Delimitado |
+| :---: | :--- | :---: | :--- |
+| 1 | Cao, X., & Bao, Y. (2026). A systematic survey of prompt injection attacks and defenses in LLM-integrated applications and agentic systems. *Proceedings of the 2026 International Conference on Big Data and Information Analytics (BigDIA)*, 11684636. https://doi.org/10.1109/BigDIA71496.2026.11684636 | Scopus / IEEE Xplore *(Fila 183)* | Revisión sistemática sobre inyección de prompts en agentes conectados; formaliza cómo los datos se convierten en instrucciones de ejecución y clasifica defensas en tiempo de inferencia. |
+| 2 | Majewski, P., Marczak, K., Dubicka, N., Podolak, J., & Szczuko, P. (2026). Comprehensive analysis of LLM guardrails approaches preventing harmful content and jailbreak attacks. *IEEE Access*, 14, 105214–105230. https://doi.org/10.1109/ACCESS.2026.3690365 | Scopus / IEEE Access *(Fila 247)* | Análisis comparativo y empírico de las principales arquitecturas de *guardrails* (como NeMo y Llama Guard) para la mitigación activa de ataques de *jailbreak*. |
+| 3 | Knowlton, B., Campa, J., Gallo, D. S., Dajani, K., & Alzahrani, A. (2026). Prompt-based jailbreaking of leading LLM chatbots: A survey of attacks and defenses. *IEEE Transactions on Artificial Intelligence*, 7(1), 112–129. https://doi.org/10.1109/TAI.2026.3665656 | Scopus / IEEE Xplore *(Fila 34)* | Analiza y categoriza las técnicas de persuasión y ofuscación semántica utilizadas para evadir el alineamiento (*safety alignment*) en modelos comerciales desplegados. |
 
 ## Criterios de elegibilidad
 
 | Criterio | Inclusión | Exclusión |
 | :--- | :--- | :--- |
-| Periodo temporal | Publicaciones comprendidas entre 2023 y 2026 | Documentos publicados antes de 2023 |
-| Idioma | Artículos técnicos en inglés y español | Trabajos redactados en otros idiomas |
-| Tipo de documento | Artículos en revistas indexadas, *conference proceedings* arbitrados y preprints de alto impacto | Ensayos de opinión, notas de prensa o resúmenes sin metodología explícita |
-| Eje temático | Ataques adversarios, evasiones, envenenamiento o defensas algorítmicas en LLMs | Estudios de procesamiento de lenguaje natural ajenos a seguridad o ciberseguridad |
-| Acceso al contenido | Documentos con acceso al texto completo a través de suscripción institucional o acceso abierto | Publicaciones inaccesibles con solo lectura de resumen |
+| Periodo temporal | Publicaciones comprendidas entre 2023 y 2026 | Documentos anteriores a 2023 |
+| Idioma | Artículos en inglés o español | Publicaciones redactadas en otros idiomas (ej. ucraniano) |
+| Tipo de documento | Artículos de revista arbitrados, actas de conferencia (*proceedings*) y revisiones sistemáticas | Ensayos de divulgación, notas de prensa o resúmenes sin metodología |
+| Eje temático | Seguridad ofensiva, vulnerabilidades adversarias o defensas algorítmicas en LLMs | Trabajos de procesamiento de lenguaje natural ajenos a ciberseguridad |
+| Acceso al contenido | Disponibilidad de texto completo vía suscripción institucional o acceso abierto | Registros con únicamente resumen disponible |
 
-## Taxonomía de vectores y defensas
+## Taxonomía de vectores y defensas MITRE ATLAS
 
 ```text
 +-----------------------------------------------------------------------------------+
@@ -202,12 +232,12 @@ TITLE-ABS-KEY(
 |           Vectores de Ataque            |          Defensas Algorítmicas          |
 |              (MITRE ATLAS)              |             y Mitigaciones              |
 +-----------------------------------------+-----------------------------------------+
-| - Inyección de prompts (directa/indirecta)| - Filtros de sanitización de prompts    |
+| - Inyección de prompts (directa/indirecta)| - Filtros de sanitización perimetral    |
 | - Evasión de restricciones (Jailbreaking) | - Alineamiento de seguridad (RLHF/DPO)  |
 | - Envenenamiento de datos (Data Poisoning)| - Detección de anomalías en embeddings  |
-| - Ataques de puertas traseras (Backdoors) | - Mecanismos de Guardrails en tiempo real|
-| - Extracción de datos de entrenamiento    | - Evaluación con AI Red Teaming         |
-| - Inferencia y robo de pesos del modelo   | - Aislamiento contextual y sandboxing   |
+| - Ataques de puertas traseras (Backdoors) | - Guardrails semánticos en tiempo real  |
+| - Extracción de datos de entrenamiento    | - Evaluación continua con Red Teaming   |
+| - Inferencia y robo de pesos del modelo   | - Aislamiento de privilegios en agentes |
 +-----------------------------------------+-----------------------------------------+
 ```
 
@@ -215,11 +245,11 @@ TITLE-ABS-KEY(
 
 | Fase | Hito metodológico | Entregable |
 | :---: | :--- | :--- |
-| 1 | Delimitación temática cuatridimensional y registro de cuenta | `tema.md` y `MATRIZ DE DELIMITACIÓN...docx` |
-| 2 | Ejecución de búsquedas bibliográficas y descarte por título/abstract | Matriz de cribado Prisma/Scoping |
-| 3 | Extracción de datos y clasificación taxonómica con MITRE ATLAS | Base tabular de vectores y defensas |
-| 4 | Análisis comparativo de efectividad de defensas algorítmicas | Capítulo de resultados y discusión |
-| 5 | Consolidación del informe final de Trabajo de Investigación | Documento de tesis preliminar |
+| 1 | Delimitación temática cuatridimensional y evidencia de acceso | `MATRIZ...PEDRO GIOVANNI RICRA FIGUEROA.docx` y PDF de cuenta |
+| 2 | Búsqueda booleana, depuración lingüística y deduplicación | Base consolidada en `Nuevo Hoja de cálculo...xlsx` (484 registros) |
+| 3 | Cribado por título y resumen (*screening*) según criterios | Matriz de selección documental |
+| 4 | Extracción de datos y mapeo taxonómico con MITRE ATLAS | Tabla comparativa de vectores y defensas |
+| 5 | Redacción de resultados, discusión y conclusiones | Informe final de Trabajo de Investigación |
 
 ---
 
