@@ -139,6 +139,6 @@ flowchart TD
 - 📊 **Presentación Oficial de Sustentación:** [[MATRIZ_DELI_RICRA_FIGUEROA_PEDRO_GIOVANNI.pptx|Abrir Presentación Oficial PPTX (8 Diapositivas)]]
 - 📈 **Base Maestra Consolidada (8 Hojas):** [[Base de Datos - 12.xlsx|Abrir Base Maestra Consolidada (XLSX)]]
 - 📊 **Base Original 5 Fuentes (Identificación Inicial):** [[Base de Datos - Identificación Inicial.xlsx|Abrir Base Original 5 Fuentes (XLSX)]]
-- 📚 **Textos Completos en PDF (10 Investigaciones Ancla):** [investigaciones/](../../investigaciones/)
+- 📚 **Textos Completos en PDF (10 Investigaciones Ancla):** [[Dashboard Trabajo de Investigación#📁 Fichas de Literatura Ancla/ (10 Artículos Clave)|Ver 10 Investigaciones Ancla en PDF (carpeta investigaciones/)]]
 - 🔬 **Entregables de Vacíos Científicos:** [[Mapa del Estado del Arte y Taxonomía de Evidencia (2023–2026)|Abrir Análisis de Vacíos Científicos]]
 - 🗺️ **Canvas Interactivo del Proyecto:** [[Mapa Conceptual Trabajo de Investigación.canvas|Abrir Mapa Visual del Proyecto]]

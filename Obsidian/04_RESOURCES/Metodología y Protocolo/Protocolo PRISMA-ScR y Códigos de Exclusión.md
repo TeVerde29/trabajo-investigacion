@@ -50,7 +50,7 @@ flowchart TD
 
 ## 🚫 Códigos Formales de Exclusión (EX-01 a EX-12)
 
-Cada exclusión registrada en el dataset maestro ([Base de Datos - 12.xlsx](../../../Base%20de%20Datos/Base%20de%20Datos%20-%2012.xlsx), hoja `4. Excluidos con justificación`) cuenta con su codificación explícita y justificación técnica:
+Cada exclusión registrada en el dataset maestro ([[Base de Datos - 12.xlsx|Base de Datos - 12.xlsx]], hoja `4. Excluidos con justificación`) cuenta con su codificación explícita y justificación técnica:
 
 | Código | Denominación del Criterio | Descripción Operacional | Impacto (Registros) |
 | :---: | :--- | :--- | :---: |

@@ -23,7 +23,7 @@ updated: {{date}}
 > [!cite] Cita APA 7ma Edición
 > Autor, A., & Autor, B. (Año). Título del artículo. *Nombre de Revista*, Volumen(Número), páginas. https://doi.org/...
 
-- 📄 **Documento PDF local:** [[nombre_del_archivo.pdf|archivo.pdf]]
+- 📄 **Documento PDF local:** (Vincular archivo PDF aquí)
 
 ---
 
