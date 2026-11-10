@@ -1,0 +1,23 @@
+# Obsidian workspace & layout (evita conflictos de sincronización entre PCs)
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+
+# Caché interno y papelera de Obsidian
+**/.obsidian/cache/
+.trash/
+**/[.]trash/
+
+# Archivos temporales de Microsoft Office (Word, Excel, PowerPoint)
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Entornos virtuales Python y caché
+.venv/
+__pycache__/
+*.py[cod]
