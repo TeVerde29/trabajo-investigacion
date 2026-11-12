@@ -1,19 +1,19 @@
-﻿filters:
+filters:
   and:
-    - 'vence'
-    - 'estado != "hecha"'
-    - 'estado != "cancelada"'
-    - 'estado != "cerrada"'
-    - 'estado != "archivado"'
-    - 'estado != "completado"'
+    - vence
+    - estado != "hecha"
+    - estado != "cancelada"
+    - estado != "cerrada"
+    - estado != "archivado"
+    - estado != "completado"
 formulas:
-  dias_restantes: 'if(vence, (date(vence) - today()).days, "")'
+  dias_restantes: if(vence, (date(vence) - today()).days, "")
 properties:
   formula.dias_restantes:
-    displayName: "Días"
+    displayName: Días
 views:
   - type: table
-    name: "Próximos vencimientos"
+    name: Próximos vencimientos
     order:
       - vence
       - formula.dias_restantes
