@@ -1,25 +1,24 @@
 ---
 title: "04.2 - Evaluación de Trade-offs: Seguridad vs Latencia vs Over-Refusal"
 aliases:
-  - "Evaluación de Trade-offs Seguridad vs Latencia vs Over-Refusal"
-  - "Evaluación de Trade-offs Seguridad vs Latencia vs Over-Refusal"
-  - "Trade-offs"
-  - "Trilema de Guardrails"
-  - "Over-refusal vs Latencia"
+  - Evaluación de Trade-offs Seguridad vs Latencia vs Over-Refusal
+  - Trade-offs
+  - Trilema de Guardrails
+  - Over-refusal vs Latencia
 tags:
   - sintesis
   - over-refusal
   - latencia
   - asr
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-08-15
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # ⚖️ El Trilema de los Guardrails en Producción: Seguridad vs. Latencia vs. Utilidad

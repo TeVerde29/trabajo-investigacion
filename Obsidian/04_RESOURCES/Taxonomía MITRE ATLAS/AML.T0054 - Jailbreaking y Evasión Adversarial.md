@@ -1,25 +1,24 @@
 ---
-title: "AML.T0054 - Jailbreaking y Evasión Adversarial [AML.T0054]"
+title: AML.T0054 - Jailbreaking y Evasión Adversarial [AML.T0054]
 aliases:
-  - "AML.T0054 - Jailbreaking y Evasión Adversarial"
-  - "AML.T0054 - Jailbreaking y Evasión Adversarial"
-  - "Jailbreaking"
-  - "Evasión Adversarial"
-  - "AML.T0054"
+  - AML.T0054 - Jailbreaking y Evasión Adversarial
+  - Jailbreaking
+  - Evasión Adversarial
+  - AML.T0054
 tags:
   - mitre-atlas
   - jailbreak
   - evasion
   - guardrails
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-08-15
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # 🔓 AML.T0054: LLM Jailbreaking y Evasión de Políticas de Seguridad

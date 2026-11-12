@@ -1,24 +1,23 @@
 ---
-title: "Matriz Comparativa de Guardrails Comerciales y de Código Abierto"
+title: Matriz Comparativa de Guardrails Comerciales y de Código Abierto
 aliases:
-  - "Matriz Comparativa de Guardrails Comerciales y de Código Abierto"
-  - "Matriz Comparativa de Guardrails Comerciales y de Código Abierto"
-  - "Comparativa Guardrails"
-  - "Benchmark Guardrails"
+  - Matriz Comparativa de Guardrails Comerciales y de Código Abierto
+  - Comparativa Guardrails
+  - Benchmark Guardrails
 tags:
   - sintesis
   - metricas
   - guardrails
   - benchmark
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-08-15
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # 📊 Matriz Comparativa de Guardrails Comerciales y de Código Abierto

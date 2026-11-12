@@ -1,11 +1,10 @@
 ---
-title: "06.2 - Contradicciones Científicas, Tensiones Empíricas y Debates Abiertos en Seguridad de LLMs"
+title: 06.2 - Contradicciones Científicas, Tensiones Empíricas y Debates Abiertos en Seguridad de LLMs
 aliases:
-  - "Contradicciones Científicas y Debates Abiertos"
-  - "Contradicciones Científicas y Debates Abiertos"
-  - "Contradicciones Científicas"
-  - "Debates Abiertos"
-  - "Tensiones Empíricas"
+  - Contradicciones Científicas y Debates Abiertos
+  - Contradicciones Científicas
+  - Debates Abiertos
+  - Tensiones Empíricas
 tags:
   - vacios-cientificos
   - contradicciones
@@ -13,14 +12,14 @@ tags:
   - over-refusal
   - contaminacion-contextual
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-11-09
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # ⚡ 06.2 - Contradicciones Científicas, Tensiones Empíricas y Debates Abiertos

@@ -1,11 +1,10 @@
 ---
-title: "PRJ - Delimitación Temática y Matriz Institucional (EPIS-UNU)"
+title: PRJ - Delimitación Temática y Matriz Institucional (EPIS-UNU)
 aliases:
-  - "Matriz de Delimitación"
-  - "PRJ - Delimitación Temática y Matriz Institucional"
-  - "PRJ - Delimitación Temática y Matriz Institucional de Investigación"
-  - "Vulnerabilidades, técnicas de evasión y defensas algorítmicas en LLMs"
-  - "PRJ - Delimitación Temática y Matriz Institucional"
+  - Matriz de Delimitación
+  - PRJ - Delimitación Temática y Matriz Institucional
+  - PRJ - Delimitación Temática y Matriz Institucional de Investigación
+  - Vulnerabilidades, técnicas de evasión y defensas algorítmicas en LLMs
 tags:
   - project
   - investigacion
@@ -16,19 +15,19 @@ tags:
   - scoping-review
   - epis-unu
 type: project
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: critical
 start_date: 2026-08-15
 due_date: 2026-11-15
-next_action: "Sustentar la matriz formalmente ante el comité docente de la EPIS-UNU"
+next_action: Sustentar la matriz formalmente ante el comité docente de la EPIS-UNU
 created: 2026-08-15
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
-linea: "Ciberseguridad"
-institucion: "Escuela Profesional de Ingeniería de Sistemas — Universidad Nacional de Ucayali (EPIS-UNU)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
+linea: Ciberseguridad
+institucion: Escuela Profesional de Ingeniería de Sistemas — Universidad Nacional de Ucayali (EPIS-UNU)
 ---
 
 # 📑 PRJ: Delimitación Temática Cuatridimensional y Matriz Institucional

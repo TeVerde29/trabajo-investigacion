@@ -1,11 +1,10 @@
 ---
-title: "Ecuaciones de Búsqueda y Filtros por Base de Datos"
+title: Ecuaciones de Búsqueda y Filtros por Base de Datos
 aliases:
-  - "Ecuaciones de Búsqueda y Filtros por Base de Datos"
-  - "Ecuaciones de Búsqueda y Filtros por Base de Datos"
-  - "Ecuaciones de Busqueda"
-  - "Estrategia Booleana"
-  - "Filtros por Base de Datos"
+  - Ecuaciones de Búsqueda y Filtros por Base de Datos
+  - Ecuaciones de Busqueda
+  - Estrategia Booleana
+  - Filtros por Base de Datos
 tags:
   - metodologia
   - busqueda-booleana
@@ -13,8 +12,8 @@ tags:
   - ieee
   - sciencedirect
   - ebsco
-author: "Pedro Giovanni Ricra Figueroa"
-area: "Trabajo de Investigación"
+author: Pedro Giovanni Ricra Figueroa
+area: Trabajo de Investigación
 created: 2026-08-15
 updated: 2026-11-09
 type: resource

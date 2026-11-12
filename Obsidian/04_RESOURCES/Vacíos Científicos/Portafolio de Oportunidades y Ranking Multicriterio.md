@@ -1,11 +1,10 @@
 ---
-title: "06.3 - Portafolio de Oportunidades de Investigación y Ranking Multicriterio de Novedad"
+title: 06.3 - Portafolio de Oportunidades de Investigación y Ranking Multicriterio de Novedad
 aliases:
-  - "Portafolio de Oportunidades y Ranking Multicriterio"
-  - "Portafolio de Oportunidades y Ranking Multicriterio"
-  - "Portafolio de Oportunidades"
-  - "Ranking de Novedad y Viabilidad"
-  - "Oportunidades de Tesis"
+  - Portafolio de Oportunidades y Ranking Multicriterio
+  - Portafolio de Oportunidades
+  - Ranking de Novedad y Viabilidad
+  - Oportunidades de Tesis
 tags:
   - vacios-cientificos
   - oportunidades
@@ -13,14 +12,14 @@ tags:
   - ranking
   - tesis
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-11-09
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # 🏆 Portafolio de Oportunidades y Ranking Multicriterio

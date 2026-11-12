@@ -1,18 +1,17 @@
 ---
-title: "Protocolo PRISMA-ScR y Códigos de Exclusión"
+title: Protocolo PRISMA-ScR y Códigos de Exclusión
 aliases:
-  - "Protocolo PRISMA-ScR y Códigos de Exclusión"
-  - "Protocolo PRISMA-ScR y Códigos de Exclusión"
-  - "Protocolo PRISMA-ScR"
-  - "PRISMA-ScR"
-  - "Codigos de Exclusion"
+  - Protocolo PRISMA-ScR y Códigos de Exclusión
+  - Protocolo PRISMA-ScR
+  - PRISMA-ScR
+  - Codigos de Exclusion
 tags:
   - metodologia
   - prisma-scr
   - screening
   - tesis
-author: "Pedro Giovanni Ricra Figueroa"
-area: "Trabajo de Investigación"
+author: Pedro Giovanni Ricra Figueroa
+area: Trabajo de Investigación
 created: 2026-08-15
 updated: 2026-11-09
 type: resource

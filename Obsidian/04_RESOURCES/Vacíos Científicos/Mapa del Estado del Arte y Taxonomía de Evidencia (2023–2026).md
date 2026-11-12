@@ -1,11 +1,10 @@
 ---
-title: "Mapa del Estado del Arte y Taxonomía de Evidencia (2023–2026) en Ciberseguridad de LLMs"
+title: Mapa del Estado del Arte y Taxonomía de Evidencia (2023–2026) en Ciberseguridad de LLMs
 aliases:
-  - "Mapa del Estado del Arte y Taxonomía de Evidencia (2023–2026)"
-  - "Mapa del Estado del Arte y Taxonomía de Evidencia (2023–2026)"
-  - "Estado del Arte"
-  - "Mapa del Estado del Arte"
-  - "Taxonomía de Evidencia"
+  - Mapa del Estado del Arte y Taxonomía de Evidencia (2023–2026)
+  - Estado del Arte
+  - Mapa del Estado del Arte
+  - Taxonomía de Evidencia
 tags:
   - estado-del-arte
   - vacios-cientificos
@@ -13,14 +12,14 @@ tags:
   - ciberseguridad
   - llm
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-11-09
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # 🗺️ Mapa del Estado del Arte y Taxonomía de Evidencia (2023–2026) (2023–2026)

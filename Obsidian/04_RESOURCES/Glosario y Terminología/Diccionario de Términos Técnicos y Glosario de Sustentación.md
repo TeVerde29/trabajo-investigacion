@@ -1,12 +1,11 @@
 ---
-title: "Diccionario de Términos Técnicos y Glosario de Sustentación"
+title: Diccionario de Términos Técnicos y Glosario de Sustentación
 aliases:
-  - "Diccionario de Términos Técnicos y Glosario de Sustentación"
-  - "Diccionario de Términos Técnicos y Glosario de Sustentación"
-  - "Diccionario de Datos"
-  - "Diccionario de Términos"
-  - "Glosario de Términos"
-  - "Diccionario Técnico"
+  - Diccionario de Términos Técnicos y Glosario de Sustentación
+  - Diccionario de Datos
+  - Diccionario de Términos
+  - Glosario de Términos
+  - Diccionario Técnico
 tags:
   - glosario
   - diccionario
@@ -14,10 +13,10 @@ tags:
   - terminologia
   - ciberseguridad
   - llm
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
-area: "Trabajo de Investigación"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
+area: Trabajo de Investigación
 created: 2026-08-15
 updated: 2026-11-09
 type: resource

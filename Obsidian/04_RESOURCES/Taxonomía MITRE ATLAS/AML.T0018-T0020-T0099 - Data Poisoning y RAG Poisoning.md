@@ -1,29 +1,28 @@
 ---
-title: "AML.T0018-T0020-T0099 - Data Poisoning y RAG Poisoning [AML.T0018 / AML.T0020 / AML.T0099]"
+title: AML.T0018-T0020-T0099 - Data Poisoning y RAG Poisoning [AML.T0018 / AML.T0020 / AML.T0099]
 aliases:
-  - "AML.T0018-T0020-T0099 - Data Poisoning y RAG Poisoning"
-  - "AML.T0018-T0020-T0099 - Data Poisoning y RAG Poisoning"
-  - "Data Poisoning y RAG Poisoning"
-  - "Data Poisoning"
-  - "RAG Poisoning"
-  - "Backdoors"
-  - "AML.T0018"
-  - "AML.T0020"
-  - "AML.T0099"
+  - AML.T0018-T0020-T0099 - Data Poisoning y RAG Poisoning
+  - Data Poisoning y RAG Poisoning
+  - Data Poisoning
+  - RAG Poisoning
+  - Backdoors
+  - AML.T0018
+  - AML.T0020
+  - AML.T0099
 tags:
   - mitre-atlas
   - data-poisoning
   - rag
   - backdoors
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-08-15
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # ☣️ AML.T0018 / AML.T0020 / AML.T0099: Envenenamiento de Datos, Backdoors y Corrupción RAG

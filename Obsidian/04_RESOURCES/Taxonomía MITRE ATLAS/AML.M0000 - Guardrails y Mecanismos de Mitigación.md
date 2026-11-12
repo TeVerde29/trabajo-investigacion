@@ -1,26 +1,25 @@
 ---
-title: "AML.M0000 - Guardrails y Mecanismos de Mitigación [AML.M0000]"
+title: AML.M0000 - Guardrails y Mecanismos de Mitigación [AML.M0000]
 aliases:
-  - "AML.M0000 - Guardrails y Mecanismos de Mitigación"
-  - "AML.M0000 - Guardrails y Mecanismos de Mitigación"
-  - "Guardrails y Mecanismos de Mitigación"
-  - "Guardrails"
-  - "Mecanismos de Mitigacion"
-  - "Defensas LLM"
+  - AML.M0000 - Guardrails y Mecanismos de Mitigación
+  - Guardrails y Mecanismos de Mitigación
+  - Guardrails
+  - Mecanismos de Mitigacion
+  - Defensas LLM
 tags:
   - mitre-atlas
   - guardrails
   - defensas
   - ciberseguridad
 type: resource
-area: "Trabajo de Investigación"
+area: Trabajo de Investigación
 status: completed
 priority: high
 created: 2026-08-15
 updated: 2026-11-09
-author: "Pedro Giovanni Ricra Figueroa"
-asignatura: "Trabajo de Investigación"
-ciclo: "X (2026-II)"
+author: Pedro Giovanni Ricra Figueroa
+asignatura: Trabajo de Investigación
+ciclo: X (2026-II)
 ---
 
 # 🛡️ Guardrails y Mecanismos de Mitigación en Producción

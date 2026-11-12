@@ -4,7 +4,6 @@ aliases:
   - Dashboard
   - MOC Trabajo de Investigacion
   - Centro de Control
-  - Dashboard Principal
 tags:
   - moc
   - dashboard
