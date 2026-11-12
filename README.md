@@ -106,14 +106,19 @@ trabajo-investigacion/
 │   ├── 10_Ignore This Title and HackAPrompt Exposing Systemic...pdf      # ID 3256: Schulhoff et al. (2024) sobre HackAPrompt (+600k ataques)
 │   ├── 11_Adversarial prompt and fine-tuning attacks threaten...pdf      # ID 1628: Chen et al. (2026) sobre envenenamiento en modelos médicos
 │   └── 12_A decontextualized LLM-based safeguard technique...pdf         # ID 40: Santilli / D-SHIELD (2026) sobre mitigación de jailbreak
-├── Obsidian/                                                             # Bóveda de gestión del conocimiento del proyecto (método PARA)
-│   ├── 00_DASHBOARD/                                                     # Centro de control interactivo y canvas visual
-│   ├── 01_INBOX/                                                         # Capturas rápidas y triaje de ideas
-│   ├── 02_PROJECTS/                                                      # Proyectos activos (delimitación, sustentación, tesis)
-│   ├── 03_AREAS/                                                         # Áreas de responsabilidad y gestión académica
-│   ├── 04_RESOURCES/                                                     # Fichas de literatura ancla, protocolos, ATLAS y vacíos
-│   ├── 05_ARCHIVE/                                                       # Historial y registros de fases culminadas
-│   └── 06_TEMPLATES/                                                     # Plantillas estructuradas de notas y proyectos
+├── Obsidian/                                                             # Bóveda de gestión del conocimiento bajo el estándar ATLAS
+│   ├── 00_Inbox/                                                         # Capturas rápidas y triaje de literatura (Regla G)
+│   ├── 01_Dashboard/                                                     # Centro de control (Home.md, Canvas interactivo y Bases .base)
+│   ├── 02_Proyectos/                                                     # Proyectos activos de investigación
+│   │   └── PRJ-2026-001_Mapeo-Sistematico-LLMs/                          # Hub, gestión, tareas, protocolos, vacíos y entregables
+│   ├── 03_Conocimiento/                                                  # Biblioteca permanente y compartida
+│   │   ├── Referencias/                                                  # Fichas bibliográficas estandarizadas (@citekey)
+│   │   ├── Conceptos/                                                    # Taxonomía MITRE ATLAS, línea de investigación y glosario
+│   │   └── Procedimientos/                                               # Protocolo operativo estándar de cribado PRISMA
+│   ├── 04_Diario/                                                        # Notas de jornada y revisiones periódicas
+│   ├── 05_Archivo/                                                       # Proyectos cerrados (Delimitación) e histórico de logs
+│   ├── 90_Sistema/                                                       # Plantillas oficiales ATLAS, Bases y Esqueleto de Proyecto
+│   └── 99_Adjuntos/                                                      # Archivos binarios y recursos compartidos
 ├── Evidencia creación de cuenta - Pedro Ricra Figueroa.pdf               # Constancia de credencial activa RENACYT-CONCYTEC / UNU
 ├── MATRIZ_DELI_RICRA_FIGUEROA_PEDRO_GIOVANNI.docx                        # Matriz oficial completada (Secciones I a V) para EPIS-UNU
 ├── MATRIZ_DELI_RICRA_FIGUEROA_PEDRO_GIOVANNI.pptx                        # Diapositivas oficiales de sustentación del proyecto (8 diapositivas)
@@ -126,7 +131,7 @@ Decisiones arquitectónicas del repositorio:
 - **Separación de datos y documentos (`Base de Datos/`):** Aísla los registros crudos en CSV de los libros procesados en `.xlsx`, permitiendo auditar de forma independiente cada etapa de la depuración.
 - **Preservación local de fuentes primarias (`investigaciones/`):** Almacena los PDFs de acceso abierto directamente en el repositorio para garantizar la verificación inmediata de citas textuales y métricas reportadas.
 - **Trazabilidad visual de consultas (`Evidencias/`):** Conserva las capturas de pantalla de las plataformas indexadas con fecha y parámetros exactos de ejecución para respaldar la reproducibilidad ante el comité evaluador.
-- **Bóveda estructurada de conocimiento (`Obsidian/`):** Agrupa en una carpeta única y ordenada todo el sistema de notas académicas bajo el método PARA (Dashboard, Proyectos, Áreas, Recursos, Archivo y Plantillas), desacoplada de los entregables y datasets de raíz.
+- **Bóveda estructurada bajo el estándar ATLAS (`Obsidian/`):** Adopta la arquitectura universal ATLAS (Inbox, Dashboard, Proyectos, Conocimiento, Diario, Archivo y Sistema) con identificadores unificados, propiedades YAML normalizadas y bases dinámicas (`.base`), desacoplada de los entregables y datasets de raíz.
 - **Entregables académicos en raíz:** Mantiene la matriz institucional `.docx` y las diapositivas `.pptx` en el directorio principal para acceso directo durante las revisiones de cátedra.
 
 ## Instalación y flujo de trabajo

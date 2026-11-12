@@ -1,0 +1,35 @@
+﻿filters:
+  and:
+    - 'tipo == "proyecto"'
+formulas:
+  dias_restantes: 'if(vence, (date(vence) - today()).days, "")'
+properties:
+  formula.dias_restantes:
+    displayName: "Días restantes"
+views:
+  - type: table
+    name: "Activos"
+    filters:
+      and:
+        - 'estado != "archivado"'
+        - 'estado != "completado"'
+        - 'estado != "cancelado"'
+    order:
+      - file.name
+      - estado
+      - prioridad
+      - responsable
+      - vence
+      - formula.dias_restantes
+    sort:
+      - property: prioridad
+        direction: ASC
+  - type: cards
+    name: "Por estado"
+    groupBy:
+      property: estado
+      direction: ASC
+    order:
+      - file.name
+      - prioridad
+      - vence

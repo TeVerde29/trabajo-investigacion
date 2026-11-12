@@ -1,0 +1,64 @@
+﻿filters:
+  and:
+    - file.inFolder("02_Proyectos/PRJ-2026-001_Mapeo-Sistematico-LLMs")
+    - 'tipo != "proyecto"'
+formulas:
+  dias: 'if(vence, (date(vence) - today()).days, "")'
+properties:
+  formula.dias:
+    displayName: "Días"
+views:
+  - type: table
+    name: "Trabajo abierto"
+    filters:
+      and:
+        - or:
+            - 'tipo == "tarea"'
+            - 'tipo == "entregable"'
+            - 'tipo == "incidencia"'
+        - 'estado != "hecha"'
+        - 'estado != "cancelada"'
+        - 'estado != "cerrada"'
+        - 'estado != "aceptado"'
+    order:
+      - file.name
+      - tipo
+      - estado
+      - prioridad
+      - vence
+      - formula.dias
+    sort:
+      - property: prioridad
+        direction: ASC
+  - type: table
+    name: "Decisiones"
+    filters:
+      and:
+        - 'tipo == "decision"'
+    order:
+      - file.name
+      - estado
+      - decidido
+  - type: table
+    name: "Reuniones"
+    filters:
+      and:
+        - 'tipo == "reunion"'
+    order:
+      - file.name
+      - fecha
+    sort:
+      - property: fecha
+        direction: DESC
+  - type: table
+    name: "Documentos"
+    filters:
+      or:
+        - 'tipo == "plan"'
+        - 'tipo == "tecnica"'
+        - 'tipo == "investigacion"'
+    order:
+      - file.name
+      - tipo
+      - estado
+      - file.mtime

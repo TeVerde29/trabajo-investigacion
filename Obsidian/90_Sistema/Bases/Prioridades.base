@@ -1,0 +1,20 @@
+﻿filters:
+  and:
+    - 'prioridad <= 2'
+    - 'estado != "hecha"'
+    - 'estado != "cancelada"'
+    - 'estado != "cerrada"'
+    - 'estado != "archivado"'
+    - 'estado != "completado"'
+views:
+  - type: table
+    name: "Críticas y altas"
+    order:
+      - prioridad
+      - file.name
+      - tipo
+      - estado
+      - vence
+    sort:
+      - property: prioridad
+        direction: ASC
