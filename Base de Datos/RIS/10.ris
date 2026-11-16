@@ -1,0 +1,632 @@
+TY  - CHAP
+T1  - Chapter 19 - AI-designed drugs: clinical development and future directions
+AU  - Ahmed, Raja
+AU  - Akhtar, Suraiya
+AU  - Das, Ankur
+AU  - Begum, Khaleda
+AU  - Sarma, Abhijit
+AU  - Chakraborty, Amartya
+AU  - Neog, Tanisha
+AU  - Banu, Sofia
+A2  - Chen, Jen-Tsung
+BT  - Revolutionizing Drug Development
+PB  - Academic Press
+SP  - 293
+EP  - 325
+PY  - 2026
+DA  - 2026/01/01/
+SN  - 978-0-443-34059-8
+DO  - https://doi.org/10.1016/B978-0-443-34059-8.00010-5
+UR  - https://www.sciencedirect.com/science/article/pii/B9780443340598000105
+KW  - Artificial intelligence (AI)
+KW  - deep learning
+KW  - drug discovery
+KW  - drug repurposing
+KW  - machine learning
+AB  - The journey of drug discovery, from conceptualization to regulatory approval, is notoriously lengthy, costly, and prone to failure. Researchers have long sought to streamline this process, aiming for faster and error-free drug discovery. Traditionally, drug discovery involves numerous steps, from identifying biological targets associated with diseases to conducting clinical trials to marketing approval. The introduction of artificial intelligence (AI) in drug discovery represents a transformative advancement in the pharmaceutical industry, significantly altering the clinical development landscape. AI-designed drugs utilize sophisticated computational techniques, such as machine learning and deep learning, to predict molecular behavior, optimize lead compounds, and expedite the drug discovery process. This chapter delves into the profound impact of AI across various pharmaceutical sectors, including drug discovery and development, drug repurposing, and the enhancement of pharmaceutical productivity and clinical trials. The successful implementation of AI would not only reduce human workload but also achieve targets more efficiently. The chapter further explores how AI is revolutionizing each stage of the drug discovery process, the tools and techniques employed, ongoing challenges, and strategies to overcome these obstacles. Also, the future prospects of AI in the pharmaceutical industry, highlighting its potential to continually transform therapeutic development, are addressed.
+ER  - 
+
+TY  - JOUR
+T1  - From GPT to DeepSeek: Significant gaps remain in realizing AI in healthcare
+AU  - Peng, Yifan
+AU  - Malin, Bradley A.
+AU  - Rousseau, Justin F.
+AU  - Wang, Yanshan
+AU  - Xu, Zihan
+AU  - Xu, Xuhai
+AU  - Weng, Chunhua
+AU  - Bian, Jiang
+JO  - Journal of Biomedical Informatics
+VL  - 163
+SP  - 104791
+PY  - 2025
+DA  - 2025/03/01/
+SN  - 1532-0464
+DO  - https://doi.org/10.1016/j.jbi.2025.104791
+UR  - https://www.sciencedirect.com/science/article/pii/S1532046425000206
+KW  - DeepSeek
+KW  - ChatGPT
+KW  - AI in Healthcare
+ER  - 
+
+TY  - CHAP
+T1  - Chapter 10 - Blockchain-powered collaborative learning in 6G wireless network
+AU  - Zhang, Xin Owen
+AU  - Sarang, Megha
+AU  - Zage, David
+AU  - Moustafa, Hassnaa
+A2  - Hafi, Houda
+A2  - Brik, Bouziane
+A2  - Houda, Zakaria Abou El
+BT  - Collaborative Learning for 6G Mobile Wireless Networks
+PB  - Academic Press
+SP  - 201
+EP  - 244
+PY  - 2026
+DA  - 2026/01/01/
+SN  - 978-0-443-40570-9
+DO  - https://doi.org/10.1016/B978-0-44-340570-9.00018-4
+UR  - https://www.sciencedirect.com/science/article/pii/B9780443405709000184
+KW  - 6G
+KW  - Security
+KW  - Blockchain
+KW  - AI
+KW  - AI frameworks
+KW  - Deployment architectures
+KW  - Compute requirements
+AB  - This chapter introduces the value of blockchain for collaborative learning within 6G networks and edge infrastructures. It explores applications across various sectors that can benefit from this integration, identifies key deployment challenges, and reviews potential architectures, such as blockchain-radio access networks (B-RAN) and zero-trust frameworks, to address these challenges. The chapter also highlights the need for new AI frameworks and the associated compute and infrastructure requirements at both the edge and network.
+ER  - 
+
+TY  - JOUR
+T1  - CaliPatch: Probing and repairing calibration-parameter-induced representation shift in a frozen LiDAR–camera BEV detector
+AU  - Wang, Jun
+AU  - Zheng, Quanxin
+AU  - Yu, Jianping
+JO  - Array
+VL  - 32
+SP  - 101352
+PY  - 2026
+DA  - 2026/12/01/
+SN  - 2590-0056
+DO  - https://doi.org/10.1016/j.array.2026.101352
+UR  - https://www.sciencedirect.com/science/article/pii/S2590005626006752
+KW  - Representation shift
+KW  - Frozen pretrained models
+KW  - LiDAR camera fusion
+KW  - Counterfactual controls
+KW  - Feature-space repair
+KW  - Fault detection
+AB  - Extrinsic-calibration errors between LiDAR and cameras degrade fusion-based 3-D detectors that are deployed with fixed weights. This paper presents CaliPatch, which reads a planar calibration-parameter error directly from the pre-fusion bird’s-eye-view (BEV) features of a frozen BEVFusion detector and repairs the camera branch in place, without changing any host weight. The nuScenes-DD protocol crosses these parameter faults with independent modality dropout. On scenes excluded from observer fitting, direct repair under a shared 0.5 m/5° fault increases mAP by 3.05 ± 0.32 percentage points and recovers 70.5±7.5% of the same-warp oracle gain across three training seeds. Branch controls show modest effects from LiDAR substitution and similar median output amplitudes under common and camera-only feature warps. These responses point to camera-branch cues but do not isolate injector signatures. A dedicated BEVCalib estimator achieves greater recovery through the same warp, whereas CaliPatch has lower added latency in the measured implementation. Alarm gating reduces clean-input harm, but residual losses and single-camera failures limit the global repair. The evidence concerns shared supplied-parameter faults in one fixed rig and host, whose pretraining included the evaluation scenes.
+ER  - 
+
+TY  - JOUR
+T1  - BlockTransit-AI: a decentralized artificial intelligence framework for adaptive energy-efficient public transportation in Indian metropolitan cities during geopolitical fuel crises
+AU  - Bose, Rajesh
+AU  - Sutradhar, Shrabani
+AU  - Roy, Sandip
+AU  - Khan, Arfat Ahmad
+AU  - Ayub, Muhammad Shoaib
+AU  - Koo, Insoo
+JO  - Energy Conversion and Management: X
+VL  - 31
+SP  - 102015
+PY  - 2026
+DA  - 2026/09/01/
+SN  - 2590-1745
+DO  - https://doi.org/10.1016/j.ecmx.2026.102015
+UR  - https://www.sciencedirect.com/science/article/pii/S2590174526004988
+KW  - BlockTransit-AI
+KW  - Geopolitical crisis index (GCI)
+KW  - Federated deep Q-network
+KW  - Decentralized AI
+KW  - Permissioned blockchain
+KW  - Multi-agent reinforcement learning
+KW  - Edge computing
+KW  - Crisis-adaptive transit optimization
+KW  - Smart contracts
+KW  - Indian metropolitan cities
+AB  - The geopolitical disruption of fuel supply to Indian metropolitan cities (with more than 350 million daily commuters) continues to pose a critical risk to the public transit systems because they rely on centralized dispatch architecture and the use of fossil fuels to generate schedules. Although recent studies have focused on AI-driven transit optimization and blockchain-based resource management, no current framework combines real-time geopolitical risk quantification, federated multi-agent reinforcement learning and permissioned smart contract-enforced fuel allocation into one, crisis-adaptive transit control system in a critical way since India is structurally reliant on imported petroleum. In this paper, a new three-level decentralized AI design based on BlockTransit-AI will be proposed to address this gap by integrating permissioned blockchain (Hyperledger Fabric), Federated Deep Q-Networks (FDQN), and edge-computing inference to manage energy-adaptive public transit. This work has four key novelties: (i) a Geopolitical Crisis Index (GCI), which is a synthesis of commodity futures volatility, diplomatic tension indices and supply-chain telemetry, autonomously activates operational policy switching between Normal, Alert, and Crisis modes; (ii) Hyperledger Fabric smart contracts (FuelTokenIssuer, DepotBidManager, CrisisReallocator) to issue CNG, hydrogen, and EV charging resources in a tamper-proof, auditable manner; (iii) a federated MARL architecture that is capable of autonomously rerouting between distributed edge nodes without a centralized coordinate; and (iv) a hysteresis-stabilized mode-transition protocol that prevents operational instability during marginal crisis periods. Delays in passenger waiting times dropped 28.9% and fleet fuel consumption dropped 34.7% as simulations on synthesized transit networks using Delhi, Mumbai and Kolkata as blueprints show that next generation urban transit can be built around scalable, fault-tolerant frameworks.
+ER  - 
+
+TY  - JOUR
+T1  - BAROP: A Blockchain-Auditable and Adversary-Resilient On-Chain Peer-to-Peer learning framework for EV charging intrusion detection
+AU  - Amara Korba, Abdelaziz
+AU  - Bouchiha, Mouhamed Amine
+AU  - Ghamri-Doudane, Yacine
+JO  - Machine Learning with Applications
+VL  - 25
+SP  - 100981
+PY  - 2026
+DA  - 2026/09/01/
+SN  - 2666-8270
+DO  - https://doi.org/10.1016/j.mlwa.2026.100981
+UR  - https://www.sciencedirect.com/science/article/pii/S2666827026001465
+KW  - Peer-to-peer learning
+KW  - Adversarial robustness
+KW  - Blockchain orchestration
+KW  - Model provenance
+KW  - Intrusion detection
+KW  - EV charging security
+KW  - Decentralized machine learning
+AB  - Electric vehicle (EV) charging infrastructures require collaborative intrusion detection across distributed stakeholders without centralizing sensitive operational data. Existing federated and blockchain-assisted approaches often depend on a central aggregator, provide limited resilience to malicious participants, or use blockchain primarily as a passive logging layer. This paper presents BAROP, a Blockchain-Auditable and Adversary-Resilient On-Chain Peer-to-Peer learning framework for EV charging intrusion detection. BAROP replaces centralized aggregation with validation-gated checkpoint propagation, whereby each peer evaluates candidate models on private validation data, selectively adopts beneficial checkpoints, and performs warm-start local refinement. Model artifacts are stored off-chain, while blockchain records preserve checkpoint integrity, provenance, lineage, and participation states. A contribution-sensitive incentive mechanism further discourages low-quality and malicious behavior. BAROP is evaluated on the CICEVSE2024 Network Traffic benchmark under diverse adversarial scenarios involving up to 50% malicious peers. The evaluation includes comparisons with multiple decentralized baselines and a centralized Extreme Gradient Boosting (XGBoost) reference. Across the adversarial evaluation protocol, BAROP achieves an accuracy of 0.992, a macro-F1 score of 0.890, and a weighted-F1 score of 0.989, outperforming all decentralized baselines while remaining competitive with the centralized XGBoost reference. Additional experiments on the CICEVSE2024 Power Consumption and HPC/Kernel Events datasets, together with CICIoT2023, show that the same validation-gated mechanism remains effective across heterogeneous data modalities and beyond EV charging environments.
+ER  - 
+
+TY  - JOUR
+T1  - Contents
+JO  - Procedia Computer Science
+VL  - 225
+SP  - iii
+EP  - xxxi
+PY  - 2023
+DA  - 2023/01/01/
+T2  - 27th International Conference on Knowledge Based and Intelligent Information and Engineering Sytems (KES 2023)
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/S1877-0509(23)01659-9
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050923016599
+ER  - 
+
+TY  - JOUR
+T1  - Trusting emotional support from generative artificial intelligence: a conceptual review
+AU  - Volpato, Riccardo
+AU  - DeBruine, Lisa
+AU  - Stumpf, Simone
+JO  - Computers in Human Behavior: Artificial Humans
+VL  - 5
+SP  - 100195
+PY  - 2025
+DA  - 2025/08/01/
+SN  - 2949-8821
+DO  - https://doi.org/10.1016/j.chbah.2025.100195
+UR  - https://www.sciencedirect.com/science/article/pii/S2949882125000799
+KW  - Trust
+KW  - Generative AI
+KW  - Theory
+KW  - Emotional support
+KW  - Multidisciplinary
+AB  - People are increasingly using generative artificial intelligence (AI) for emotional support, creating trust-based interactions with limited predictability and transparency. We address the fragmented nature of research on trust in AI through a multidisciplinary conceptual review, examining theoretical foundations for understanding trust in the emerging context of emotional support from generative AI. Through an in-depth literature search across human-computer interaction, computer-mediated communication, social psychology, mental health, economics, sociology, philosophy, and science and technology studies, we developed two principal contributions. First, we summarise relevant definitions of trust across disciplines. Second, based on our first contribution, we define trust in the context of emotional support provided by AI and present a categorisation of relevant concepts that recur across well-established research areas. Our work equips researchers with a map for navigating the literature and formulating hypotheses about AI-based mental health support, as well as important theoretical, methodological, and practical implications for advancing research in this area.
+ER  - 
+
+TY  - JOUR
+T1  - Artificial intelligence, machine learning, and data science in nuclear power plant operations: evidence, barriers, and sustainable energy implications
+AU  - Thomas, Robin
+AU  - Thakur, Shailesh Singh
+AU  - Chourasia, Ketan
+AU  - Nirala, Ankit
+JO  - Energy Conversion and Management: X
+VL  - 32
+SP  - 102386
+PY  - 2026
+DA  - 2026/12/01/
+SN  - 2590-1745
+DO  - https://doi.org/10.1016/j.ecmx.2026.102386
+UR  - https://www.sciencedirect.com/science/article/pii/S259017452600869X
+KW  - Nuclear power plant
+KW  - Artificial intelligence
+KW  - Machine learning
+KW  - Physics-informed neural network
+KW  - Digital twin
+KW  - Sustainable energy
+AB  - Nuclear power plants (NPPs) generate virtually carbon-free baseload electricity and occupy a strategic role in the global energy transition, yet their potential as a context for sustainable data-driven innovation remains underexplored in the energy analytics literature. This paper presents a comprehensive integrative review grounded in the 2026 IAEA technical report NR-T-1.22 as its primary authoritative source, enriched by 78 peer-reviewed studies (2018–2026) spanning the full NPP lifecycle across sixteen query clusters. The review delivers: (i) a seven-paradigm AI/ML/DS taxonomy with explicit boundary definitions, a hierarchical structure, and regulatory compatibility ratings under IEC TR 63468:2023; (ii) a cross-domain performance evidence synthesis across fourteen application domains, classified under a four-level data-environment scheme (synthetic / simulator / integral test facility / operating plant) that separates laboratory results from genuine field validation; (iii) a six-barrier adoption analysis with quantified mitigation pathways and a mechanism-level account of why the simulator-to-field gap persists; (iv) a reliability-oriented synthesis of uncertainty quantification, false-positive behaviour, and robustness reporting; and (v) a five-layer AI-NPP integration framework applied diagnostically across domains. Reported performance is strong in simulator settings—high simulator-based classification accuracy in anomaly detection and fault diagnosis, large thermal–hydraulic simulation speed-ups, and economically material fuel-optimisation benefits—and fleet-scale field deployments are documented across 68 NPP units in the IAEA annexes. Critically, however, 53 of the 78 peer-reviewed studies (68%) report synthetic or simulator-only results and only 12 (15%) use operating-plant data; the high headline metrics therefore evidence simulator-stage feasibility rather than demonstrated real-world readiness, and the IAEA field figures are practitioner-reported without an independent non-AI baseline. The paper establishes that systematic AI/ML/DS deployment can advance SDG 7 and SDG 13 through four quantified mechanisms—extended plant lifetimes, improved fuel efficiency, reduced unplanned outages, and accelerated advanced-reactor development—while arguing that the binding constraints are regulatory and institutional rather than algorithmic. Ethical dimensions including algorithmic bias, liability allocation, and safety–critical deployment thresholds are addressed with concrete regulatory and operational specifics.
+ER  - 
+
+TY  - JOUR
+T1  - Architectural tactics to achieve quality attributes of machine-learning-enabled systems: a systematic literature review
+AU  - Indykov, Vladislav
+AU  - Strüber, Daniel
+AU  - Wohlrab, Rebekka
+JO  - Journal of Systems and Software
+VL  - 223
+SP  - 112373
+PY  - 2025
+DA  - 2025/05/01/
+SN  - 0164-1212
+DO  - https://doi.org/10.1016/j.jss.2025.112373
+UR  - https://www.sciencedirect.com/science/article/pii/S016412122500041X
+KW  - Machine learning
+KW  - Software architecture
+KW  - Software quality
+KW  - Quality attributes
+AB  - Machine-learning-enabled systems are becoming increasingly common in different industries. Due to the impact of uncertainty and the pronounced role of data, ensuring the quality of such systems requires consideration of several unique characteristics in addition to traditional ones. This range of quality attributes can be achieved by the implementation of specific architectural tactics. Such architectural decisions affect the further functioning of the system and its compliance with business goals. Architectural decisions have to be made with attention to possible quality trade-offs to prevent the cost of mitigating unintended side effects. A related work analysis revealed the need for a thorough study of existing architectural decisions and their impact on various quality attributes in the context of machine-learning-enabled systems. In this paper, to address this goal, we present comprehensive research on the quality of such systems, architectural tactics, and their possible quality consequences. Based on a systematic literature review of 206 primary sources, we identified 11 common quality attributes, and 16 relevant architectural tactics together along with 85 potential quality trade-offs. Our results systematize existing research in building architectures of ML-enabled systems. They can be used by software architects and researchers at the system design stage to estimate the possible consequences of decisions made.
+ER  - 
+
+TY  - JOUR
+T1  - Revolutionizing healthcare data analytics with federated learning: A comprehensive survey of applications, systems, and future directions
+AU  - Madathil, Nisha Thorakkattu
+AU  - Dankar, Fida K.
+AU  - Gergely, Marton
+AU  - Belkacem, Abdelkader Nasreddine
+AU  - Alrabaee, Saed
+JO  - Computational and Structural Biotechnology Journal
+VL  - 28
+SP  - 217
+EP  - 238
+PY  - 2025
+DA  - 2025/01/01/
+SN  - 2001-0370
+DO  - https://doi.org/10.1016/j.csbj.2025.06.009
+UR  - https://www.sciencedirect.com/science/article/pii/S2001037025002223
+KW  - Federated learning
+KW  - Aggregation algorithms
+KW  - Data privacy
+KW  - Data partitioning
+KW  - Non-identically distributed data
+KW  - Attacks
+AB  - Federated learning (FL)–a distributed machine learning that offers collaborative training of global models across multiple clients. FL has been considered for the design and development of many FL systems in various domains. Hence, we present a comprehensive survey and analysis of existing FL systems, drawing insights from more than 250 articles published in 2019-2024. Our review elucidates the functioning of FL systems, particularly in comparison with alternative distributed learning approaches. Considering the healthcare domain as an example, we define the building blocks of a typical FL healthcare system, including system architecture, federation scale, data partitioning, open-source frameworks, ML models, and aggregation algorithms. Furthermore, we identify and discuss key challenges associated with the design and implementation of FL systems within the healthcare sector while outlining the directions of future research. In general, through systematic categorization and analysis of existing FL systems, we offer insights to design efficient, accurate, and privacy-preserving healthcare applications using cutting-edge FL techniques.
+ER  - 
+
+TY  - JOUR
+T1  - An energy-efficient privacy-preserving framework for intrusion detection in the internet of vehicles
+AU  - Heidari, Arash
+AU  - Khonsari, Ahmad
+AU  - Rastegar, Seyed Hamed
+JO  - Computers and Electrical Engineering
+VL  - 132
+SP  - 111003
+PY  - 2026
+DA  - 2026/04/01/
+SN  - 0045-7906
+DO  - https://doi.org/10.1016/j.compeleceng.2026.111003
+UR  - https://www.sciencedirect.com/science/article/pii/S0045790626000753
+KW  - Internet of vehicles
+KW  - Intrusion detection
+KW  - Federated learning
+KW  - Deep reinforcement learning
+KW  - Energy-efficient computing
+AB  - Connected vehicles rely on continuous Vehicle-to-Everything (V2X) communication, which exposes the Internet of Vehicles (IoV) to latency-sensitive and privacy-critical cyberattacks. This paper presents Federated Learning with Intelligent Traffic-aware Energy optimization (FLITE), an energy-efficient, privacy-preserving framework for intrusion detection that trains a lightweight Gated Recurrent Unit (GRU) detector on vehicles using federated learning while keeping raw telemetry local. A deep reinforcement learning–based scheduler at roadside units selects clients and transmit powers based on data quality, channel state, and device energy, reducing redundant communication. Experiments on multiple vehicular and network intrusion datasets show that FLITE achieves up to 99.8% accuracy and improves F1-score and recall by about 2–3 percentage points over strong baselines, while reducing energy consumption by 36–45%, communication overhead by more than 60%, and detection delay by up to 60%. These results demonstrate that FLITE enables real-time, fleet-wide intrusion detection for large-scale IoV deployments under realistic resource constraints.
+ER  - 
+
+TY  - JOUR
+T1  - Big Data and AI for Smart Maintenance: Literature review on the impact on plants Resilience
+AU  - Mosca, M.
+AU  - Mosca, R.
+AU  - Braggio, M.
+JO  - Procedia Computer Science
+VL  - 253
+SP  - 1959
+EP  - 1971
+PY  - 2025
+DA  - 2025/01/01/
+T2  - 6th International Conference on Industry 4.0 and Smart Manufacturing
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2025.01.258
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050925002662
+KW  - Industry 4.0
+KW  - Big Data
+KW  - Artificial Intelligence
+KW  - AI
+KW  - Machine Learning
+KW  - Deep Learning
+KW  - Neural Network
+KW  - Maintenance
+KW  - Resilience
+KW  - Literature review
+AB  - Industry 4.0 (I4.0) is a paradigm that brings great innovation in any field. For this reason, it is mandatory to deeply understand its applications. Due to its characteristics, 4.0 technologies require to be implemented starting with small pilots, able to produce fast and valuable results. Maintenance is a domain in which Industry 4.0 can have a great positive impact, by realizing a true predictive and prescriptive maintenance. In this paper, it is carefully reviewed how Big Data and Artificial Intelligence (AI) can improve maintenance and how they can be integrated to create the Smart Maintenance framework, with a special focus on the Resilience of the systems. The choice of these 2 technologies is due to the current interest in AI and the close relationship of it with Big Data. A deep literature review has been carried out using Scopus database. Records have been categorized associating to each model pros, cons and main applications. A bibliometric analysis has also been carried out. The literature shows a recent surge of interest in AI, especially since the release of models like ChatGPT, but a gap remains in integrating Big Data with AI in maintenance, highlighting the need for further research and practical case studies, while addressing challenges such as computational intensity, data quality, and expertise in AI application. Implementing new technologies like Big Data and AI in maintenance is crucial for improving efficiency and resilience, but it must be done carefully to avoid disruption.
+ER  - 
+
+TY  - JOUR
+T1  - Federated learning: A new frontier in the exploration of multi-institutional medical imaging data
+AU  - Ciupek, Dominika
+AU  - Malawski, Maciej
+AU  - Pieciak, Tomasz
+JO  - Computer Methods and Programs in Biomedicine
+VL  - 284
+SP  - 109454
+PY  - 2026
+DA  - 2026/09/01/
+SN  - 0169-2607
+DO  - https://doi.org/10.1016/j.cmpb.2026.109454
+UR  - https://www.sciencedirect.com/science/article/pii/S0169260726002087
+KW  - Federated learning
+KW  - Deep learning
+KW  - Heterogeneous data
+KW  - Model heterogeneity
+KW  - Multi-institutions
+KW  - Aggregation methods
+KW  - Malicious clients
+KW  - Privacy protection
+KW  - Governance
+AB  - Artificial intelligence has transformed the perspective of medical imaging, leading to a genuine technological revolution in modern computer-assisted healthcare systems. However, ubiquitously featured deep learning (DL) systems require access to a considerable amount of data, facilitating proper knowledge extraction and generalization. Access to such extensive resources may be hindered due to the time and effort required to convey ethical agreements, set up and carry the acquisition procedures through, and manage the datasets adequately with a particular emphasis on proper anonymization. One of the pivotal challenges in the DL field is data integration from various sources acquired using different hardware vendors, diverse acquisition protocols, experimental setups, and even inter-operator variabilities. In this paper, we review the federated learning (FL) concept that fosters the integration of large-scale heterogeneous datasets from multiple institutions in training DL models. In contrast to a centralized approach, the decentralized FL procedure promotes training DL models while preserving data privacy at each institution involved. We formulate the FL principle and comprehensively review general and specialized medical imaging aggregation and learning algorithms, enabling the generation of a globally generalized model. We meticulously go through the challenges in constructing FL-based systems, such as data and model heterogeneities across the institutions, resilience to potential attacks on data privacy, and the variability in computational and communication resources among the entangled sites that might induce efficiency issues of the entire system. Finally, we explore the up-to-date open frameworks for rapid FL-based algorithm prototyping, comprehensively present real-world implementations of FL systems and shed light on future directions in this intensively growing field.
+ER  - 
+
+TY  - JOUR
+T1  - Multi-turn response selection with Language Style and Topic Aware enhancement
+AU  - Li, Weiwei
+AU  - Chen, Yuzhong
+AU  - Xu, Junjie
+AU  - Zhong, Jiayuan
+AU  - Dong, Chen
+JO  - Computer Speech & Language
+VL  - 95
+SP  - 101842
+PY  - 2026
+DA  - 2026/01/01/
+SN  - 0885-2308
+DO  - https://doi.org/10.1016/j.csl.2025.101842
+UR  - https://www.sciencedirect.com/science/article/pii/S0885230825000671
+KW  - Multi-turn response selection
+KW  - Language style
+KW  - Topic window segmentation
+KW  - BERT
+KW  - Contrastive learning
+AB  - The multi-turn response selection is an important component in retrieval-based human–computer dialogue systems. Most recent models adopt the utilization of pre-trained language models to acquire fine-grained semantic information within diverse dialogue contexts, thereby enhancing the precision of response selection. However, effectively leveraging the language style information of speakers along with the topic information in the dialogue context to enhance the semantic understanding capability of pre-trained language models still poses a significant challenge that requires resolution. To address this challenge, we propose a BERT-based Language Style and Topic Aware (BERT-LSTA) model for multi-turn response selection. BERT-LSTA augments BERT with two distinctive modules: the Language Style Aware (LSA) module and the Question-oriented Topic Window Selection (QTWS) module. The LSA module introduces a contrastive learning method to learn the latent language style information from distinct speakers in the dialogue. The QTWS module proposes a topic window segmentation algorithm to segment the dialogue context into topic windows, which facilitates the capacity of BERT-LSTA to refine and incorporate relevant topic information for response selection. Experimental results on two public benchmark datasets demonstrate that BERT-LSTA outperforms all state-of-the-art baseline models across various metrics. Furthermore, ablation studies reveal that the LSA module significantly improves performance by capturing speaker-specific language styles, while the QTWS module enhances topic relevance by filtering irrelevant contextual information.
+ER  - 
+
+TY  - JOUR
+T1  - The Third BenchCouncil International Symposium on Intelligent Computers, Algorithms, and Applications (IC 2023) Call for Papers
+JO  - BenchCouncil Transactions on Benchmarks, Standards and Evaluations
+VL  - 3
+IS  - 2
+SP  - 100123
+PY  - 2023
+DA  - 2023/06/01/
+SN  - 2772-4859
+DO  - https://doi.org/10.1016/j.tbench.2023.100123
+UR  - https://www.sciencedirect.com/science/article/pii/S2772485923000406
+KW  - IC 2023
+KW  - IC23
+KW  - Call for papers
+AB  - Sponsored and organized by the International Open Benchmark Council (BenchCouncil), the IC conference is to provide a pioneering technology map through searching and advancing state-of-the-art and state-of-the-practice in processors, systems, algorithms, and applications for machine learning, deep learning, spiking neural network and other AI techniques across multidisciplinary and interdisciplinary areas. IC 2023 invites manuscripts describing original work in the above areas and topics. All accepted papers will be presented at the IC 2023 conference and published by Springer CCIS (Indexed by EI). The IC conferences have been successfully held for two series from 2019 to 2022 and attracted plenty of paper submissions and participants. IC 2023 will be held on December 4-6, 2023 in Sanya and invites manuscripts describing original work in processors, systems, algorithms, and applications for AI techniques across multidisciplinary and interdisciplinary areas. The conference website is https://www.benchcouncil.org/ic2023/. Important Dates: Paper Submission: July 31, 2023, at 11:59 PM AoE Notification: September 30, 2023, at 11:59 PM AoE Final Papers Due: October 31, 2023, at 11:59 PM AoE Conference Date: December 4-6, 2023 Submission Site: https://ic2023.hotcrp.com/
+ER  - 
+
+TY  - JOUR
+T1  - AI-powered marketing: What, where, and how?
+AU  - Kumar, V.
+AU  - Ashraf, Abdul R.
+AU  - Nadeem, Waqar
+JO  - International Journal of Information Management
+VL  - 77
+SP  - 102783
+PY  - 2024
+DA  - 2024/08/01/
+SN  - 0268-4012
+DO  - https://doi.org/10.1016/j.ijinfomgt.2024.102783
+UR  - https://www.sciencedirect.com/science/article/pii/S0268401224000318
+KW  - AI marketing
+KW  - Marketing strategies
+KW  - Marketing activities
+KW  - Consumer behavior and decision making
+KW  - Research agenda
+AB  - Artificial intelligence (AI) has become a disruptive force that has revolutionized industries and changed business practices. The integration of AI has brought numerous benefits to various functional areas within organizations, with marketing experiencing a significant positive impact. AI technologies have empowered marketers with advanced tools and insights, fostering unparalleled efficiency, personalization, and strategic campaign decision-making. Despite these advancements, the scholarly focus on AI's transformative effects on marketing is limited. This research investigates how AI is currently applied across different marketing functions and its potential future evolution and impact on marketing processes. In a rapidly evolving world, businesses must navigate complexity, innovate, and sustain competitive advantages. Grounding our analysis in previous AI marketing literature, we adopt the dynamic capability theoretical lens, emphasizing how organizations adapt and prosper in changing environments. This study highlights six key marketing areas where AI promises transformative effects, aiming to illuminate the path for future marketing innovations and strategies, including AI-driven customer insights, measuring marketing performance, automated marketing strategies, ethical implications, enhancing customer experiences, and growth opportunities with AI Implementation. While recognizing AI as a positive disruptive force, we also highlight its limitations, potential threats to privacy and security, as well as ramifications of biases, misuse, and dissemination of misinformation. Finally, the article delineates the gaps in the research and formulates questions aimed at advancing knowledge in AI marketing.
+ER  - 
+
+TY  - JOUR
+T1  - Ovarian cancer data analysis using deep learning: A systematic review
+AU  - Hira, Muta Tah
+AU  - Razzaque, Mohammad A.
+AU  - Sarker, Mosharraf
+JO  - Engineering Applications of Artificial Intelligence
+VL  - 138
+SP  - 109250
+PY  - 2024
+DA  - 2024/12/01/
+SN  - 0952-1976
+DO  - https://doi.org/10.1016/j.engappai.2024.109250
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197624014088
+KW  - Deep learning
+KW  - Machine learning
+KW  - Ovarian cancer
+KW  - Precision oncology
+KW  - Multi-omics
+KW  - Integrated analysis
+KW  - Hybrid model
+KW  - External validation
+KW  - Detection and diagnosis
+KW  - Prognosis
+AB  - Technological advancement and the adoption of digital technologies in cancer care and research have generated big data. These diverse and multimodal data contain valuable high-density information on various cancer subdomains, including early detection and accurate diagnosis. By extracting this information, machine learning or deep learning (ML or DL)-based autonomous data analysis tools can help clinicians and cancer researchers discover patterns and relationships from complex datasets. Many DL-based analyses on ovarian cancer (OC) data have recently been published. These analyses are highly diverse in various aspects or features of cancer (e.g., subdomain(s) and cancer type they address) and data analysis features (e.g., data modality, analysis method). However, a comprehensive understanding of these analyses in terms of these features and Artificial Intelligence Assurance (AIA) is currently lacking. This systematic review aims to fill this gap by examining the existing literature and identifying important aspects of OC data analysis using DL, explicitly focusing on key features and AI assurance perspectives. We used the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) framework for detailed searches across three journal databases and included only peer-reviewed studies published from 2015 to 2023. We identified and reviewed 96 DL-based OC studies and found five important insights on DL-based OC data analysis. First, most studies 71% (68 of 96) focused on detection and diagnosis, while no study addressed the prediction and prevention of OC. Second, the analyses were predominantly based on samples from a non-diverse population (75% (72/96 studies)), limited to a geographic location or country. Third, only a small proportion of the studies (only 33% (32/96)) performed integrated analyses, most of which used homogeneous data (clinical or omics). Fourth, only 8.3% (8/96) of the studies validated their models using external and diverse datasets, highlighting the need for enhanced model validation, and finally, the inclusion of AIA in cancer data analysis is in a very early stage; only 5.2% (5/96) explicitly addressed AIA through explainability. We also highlight critical areas that require attention in DL-based cancer data analysis, especially OC data analysis. Future research should address identified gaps, including exploring diverse and heterogeneous integrated data-driven analyses, validating models using external datasets from different demographic populations, and focusing on AI assurance through all aspects, including explainability and safety.
+ER  - 
+
+TY  - JOUR
+T1  - The corporate digital responsibility (CDR) calculus: How and why organizations reconcile digital and ethical trade-offs for growth
+AU  - Hartley, Nicole
+AU  - Kunz, Werner
+AU  - Tarbit, James
+JO  - Organizational Dynamics
+VL  - 53
+IS  - 2
+SP  - 101056
+PY  - 2024
+DA  - 2024/04/01/
+SN  - 0090-2616
+DO  - https://doi.org/10.1016/j.orgdyn.2024.101056
+UR  - https://www.sciencedirect.com/science/article/pii/S0090261624000299
+KW  - Corporate digital responsibility
+KW  - CDR calculus
+KW  - Digital ethics
+KW  - Digital ecosystems
+KW  - Artificial intelligence
+KW  - Data
+AB  - In this digital age, organizations are increasingly reliant on technology to drive business growth and innovation. With this reliance, comes an impetus for firms to responsibly and ethically manage their digital assets and data. In response, Corporate Digital Responsibility (CDR) has been espoused as a means by which firms can address the competing demands of digital innovation and transformation and ethical responsibility. Ultimately, good CDR practices have the potential to safeguard not only firms, but the various stakeholders they interact with across their digital ecosystems. However, it is recognized that the resource investment required to do so, can come at a significant cost. The CDR Calculus has been developed to assist organizations in evaluating the risks and benefits associated with digital and data practices and to determine whether they align with the organization’s CDR objectives. This paper provides a roadmap of how firms can take steps to establish a culture of CDR practice in light of these tensions. We also recognize that external regulation is required, if not needed, to enforce and cement positive CDR practices as firms respond to growing digital demands.
+ER  - 
+
+TY  - CHAP
+T1  - Chapter 7 - Ethics: what are the impacts of what’s been learned?
+AU  - Witten, Ian H.
+AU  - Frank, Eibe
+AU  - Hall, Mark A.
+AU  - Pal, Christopher J.
+AU  - Foulds, James R.
+BT  - Data Mining (Fifth Edition)
+PB  - Morgan Kaufmann
+SP  - 261
+EP  - 315
+PY  - 2026
+DA  - 2026/01/01/
+SN  - 978-0-443-15888-9
+DO  - https://doi.org/10.1016/B978-0-443-15888-9.00008-X
+UR  - https://www.sciencedirect.com/science/article/pii/B978044315888900008X
+KW  - AI ethics
+KW  - responsible AI
+KW  - fairness and bias in AI
+KW  - privacy
+KW  - deepfakes
+KW  - AI safety
+KW  - AI and society
+AB  - This chapter discusses ethical issues arising from artificial intelligence and data mining technologies, and the responsible AI practices that may help to address these issues. We overview the issue of privacy in the context of data mining and technologies that can help address it, such as k-anonymity, differential privacy, and federated learning. We then tackle fairness and bias issues in machine learning, including the sources of bias and both technical and nontechnical interventions to mitigate them. Finally, we explain how AI alignment problems can potentially lead to harmful, or even catastrophic, results.
+ER  - 
+
+TY  - JOUR
+T1  - An efficient watermarking method for latent diffusion models via low-rank adaptation and dynamic loss weighting
+AU  - Lin, Dongdong
+AU  - Li, Yue
+AU  - Tondi, Benedetta
+AU  - Lin, Kaiqing
+AU  - Li, Bin
+AU  - Barni, Mauro
+JO  - Expert Systems with Applications
+VL  - 331
+SP  - 133172
+PY  - 2026
+DA  - 2026/12/15/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2026.133172
+UR  - https://www.sciencedirect.com/science/article/pii/S0957417426020816
+KW  - Model watermarking
+KW  - Efficient watermarking
+KW  - Dynamic loss weight scheduler
+KW  - Low-rank adaptation
+KW  - Latent diffusion model
+AB  - The rapid proliferation of Deep Neural Networks (DNNs) is driving a surge in model watermarking technologies, as the trained models themselves constitute valuable intellectual property. Current watermarking approaches primarily focus on modifying model parameters or altering sampling behaviors. However, as model sizes continue to grow, improving the efficiency of watermark embedding becomes essential to manage increasing computational demands. Prioritizing efficiency not only optimizes resource utilization, making the watermarking process more applicable for large models, but also mitigates potential degradation of model performance. In this paper, we propose an efficient watermarking method for Latent Diffusion Models (LDMs) based on Low-Rank Adaptation (LoRA). The core idea is to introduce trainable low-rank parameters into the frozen LDM to embed a watermark, thereby preserving the integrity of the original model weights. Furthermore, a Dynamic Loss Weight Scheduler (DLWS) is designed to adaptively balance the objectives of watermark unobtrusiveness and watermark embedding, enabling the model to achieve effective watermark embedding with minimal impact on the quality of the output images. Experimental results demonstrate that the proposed method enables fast and accurate watermark embedding and extraction with high-quality image generation, and remains effective under different payload settings. It also maintains robustness that is aligned with, and in some cases superior to, state-of-the-art methods. Moreover, the method remains effective across different datasets and several LDM backbones with compatible VAE decoding modules.
+ER  - 
+
+TY  - CHAP
+T1  - Chapter Eight - Irregular situations in real-world intelligent systems
+AU  - Mishra, Ashutosh
+AU  - Kim, Shiho
+A2  - Kim, Shiho
+A2  - Deka, Ganesh Chandra
+BT  - Advances in Computers
+PB  - Elsevier
+VL  - 134
+SP  - 253
+EP  - 283
+PY  - 2024
+DA  - 2024/01/01/
+T2  - Artificial Intelligence and Machine Learning for Open-world Novelty
+SN  - 0065-2458
+DO  - https://doi.org/10.1016/bs.adcom.2023.04.006
+UR  - https://www.sciencedirect.com/science/article/pii/S0065245823000438
+KW  - Artificial intelligence
+KW  - Future mobility
+KW  - Intelligent systems
+KW  - Irregular situations
+KW  - Privacy and safety
+KW  - SOTIF
+AB  - Real-world is full of uncertainty. This uncertainty introduces examples of irregular situations (situations that are contrary to the normal routine). Artificial intelligence (AI) has greatly benefited society through automation and intelligent systems. However, real-world situations often involve elements of unpredictability and irregularity, which can pose challenges for AI systems. To address these challenges, researchers have developed various techniques to improve the robustness and adaptability of AI systems. These include methods for handling uncertainty, data pre-processing, explainable AI, safety-critical AI, etc. However, despite these efforts, many open questions and challenges must be addressed to make AI systems more robust and adaptable to real-world situations. In this work, we have defined the possible irregular situations (IS) and introduced the potential solutions to countermeasure such situations. Here, we have surveyed the IS in image, audio, olfactory, and motion intelligence. Further, we have investigated a few of the way-outs and solutions. In addition, we have demonstrated the IS in automated driving depending upon the level of autonomy in autonomous vehicles (AVs) and discussed the safety and privacy issues with a consideration of the safety of the intended functionality (SOTIF) standard. These findings will undoubtedly facilitate research in the direction of future mobility.
+ER  - 
+
+TY  - JOUR
+T1  - GAIA-chain: generative-AI and blockchain for autonomous task execution and resource allocation in UAV-assisted IoV
+AU  - Ullah, Inam
+AU  - Su, Xin
+AU  - Haider, Zeeshan Ali
+AU  - Arishi, Ali
+AU  - Pedrycz, Witold
+JO  - Digital Communications and Networks
+PY  - 2026
+DA  - 2026/09/18/
+SN  - 2352-8648
+DO  - https://doi.org/10.1016/j.dcan.2026.09.010
+UR  - https://www.sciencedirect.com/science/article/pii/S2352864826001227
+KW  - Internet of vehicles
+KW  - Unmanned aerial vehicle
+KW  - Generative artificial intelligence
+KW  - Blockchain
+KW  - Task assignment
+KW  - Intelligent transportation systems
+AB  - The Internet of Vehicles (IoV) stands as a key component of Intelligent Transportation Systems (ITS) with the emergence of Beyond 5G (B5G) and 6G networks, making it crucial for supporting autonomous driving, cooperative perception, and real-time vehicular services. However, achieving low latency, energy efficiency, and reliable task coordination remains challenging, primarily due to vehicle mobility, task dependencies, and the resource constraints of Unmanned Aerial Vehicles (UAVs). Current reinforcement learning methods remain reactive, lack scalability, and are susceptible to adversarial attacks. To address these limitations, this paper proposes a novel Generative AI and Blockchain Integrated Autonomy of IoV (GAIA-Chain), an integrated framework of autonomous task assignment in UAV-assisted IoV. GAIA-Chain combines a Generative Task Orchestrator (GTO) that automatically generates DAGs, Hierarchical Graph Mean-Field Multi-Agent Reinforcement Learning (HGMF-MARL) for scalable UAV scheduling, a Generative Resource Allocator (GRA) for real-time resource allocation, Blockchain-anchored Federated Learning (FL-on-Chain) for secure model aggregation, predictive generative caching, and a safety and autonomy layer with constraint verification and risk-aware optimization. Extensive simulation results show that GAIA-Chain substantially reduces execution delays and energy consumption while satisfying Service-Level Agreements (SLA) requirements and ensuring both system transparency and the blockchain’s Byzantine resilience. Ultimately, by synergizing GAI, hierarchical multi-agent learning, and blockchain-based trust mechanisms, GAIA-Chain establishes a scalable, secure, and proactive paradigm to enable next-generation, UAV-assisted IoV.
+ER  - 
+
+TY  - JOUR
+T1  - Integrating AI-based and conventional cybersecurity measures into online higher education settings: Challenges, opportunities, and prospects
+AU  - Parambil, Medha Mohan Ambali
+AU  - Rustamov, Jaloliddin
+AU  - Ahmed, Soha Galalaldin
+AU  - Rustamov, Zahiriddin
+AU  - Awad, Ali Ismail
+AU  - Zaki, Nazar
+AU  - Alnajjar, Fady
+JO  - Computers and Education: Artificial Intelligence
+VL  - 7
+SP  - 100327
+PY  - 2024
+DA  - 2024/12/01/
+SN  - 2666-920X
+DO  - https://doi.org/10.1016/j.caeai.2024.100327
+UR  - https://www.sciencedirect.com/science/article/pii/S2666920X24001309
+KW  - Higher education
+KW  - Online education systems
+KW  - E-learning systems
+KW  - Cybersecurity
+KW  - Artificial intelligence
+KW  - Ethics and privacy
+AB  - The rapid adoption of online learning in higher education has resulted in significant cybersecurity challenges. As educational institutions increasingly rely on digital platforms, they are facing cyber threats that can compromise sensitive data and disrupt operations. This systematic literature review explores the integration of artificial intelligence (AI) into traditional methods to address cybersecurity risks in online higher education. The review integrates a qualitative synthesis of relevant literature and a quantitative meta-analysis using PRISMA guidelines, ensuring comprehensive insights into the integration process. The most prevalent cybersecurity threats are examined, and the effectiveness of AI-based and conventional approaches in mitigating these challenges is compared. Additionally, the most effective AI techniques in cybersecurity solutions are analyzed, and their performance is compared across different contexts. Furthermore, the review considers the key ethical and technical considerations associated with integrating AI into traditional cybersecurity methods. The findings reveal that while AI-based techniques offer promising solutions for threat detection, authentication, and privacy preservation, their successful implementation requires careful consideration of data privacy, fairness, transparency, and robustness. The importance of interdisciplinary collaboration, continuous monitoring of AI models—by automated systems and humans—and the need for comprehensive guidelines to ensure responsible and ethical use of AI in cybersecurity are highlighted. The findings of this review provide actionable insights for educational institutions, educators, and students, helping to facilitate the development of secure and resilient online learning environments. The identified ethical and technical considerations can serve as a foundation for the responsible integration of AI into cybersecurity within the online higher-education sector.
+ER  - 
+
+TY  - CHAP
+T1  - Chapter 9 - Artificial intelligence integration in livestock metagenomics
+AU  - Hossein-Zadeh, Navid Ghavi
+BT  - Artificial Intelligence in Livestock Omics
+PB  - Academic Press
+SP  - 323
+EP  - 358
+PY  - 2026
+DA  - 2026/01/01/
+SN  - 978-0-443-45663-3
+DO  - https://doi.org/10.1016/B978-0-443-45663-3.00007-5
+UR  - https://www.sciencedirect.com/science/article/pii/B9780443456633000075
+KW  - Artificial intelligence
+KW  - Causal inference
+KW  - Digital twins
+KW  - Edge analytics
+KW  - Ethical governance
+KW  - Federated learning
+KW  - Generative microbiome design
+KW  - Livestock metagenomics
+KW  - Multimodal integration
+AB  - This chapter is an inquiry into how artificial intelligence (AI) can transform the present situation of livestock metagenomics into a predictive and prescriptive ecosystem stewardship. It characterizes the biological and statistical anomalies of livestock-related microbiomes at both anatomical and environmental demands, and explores AI methods with representation learning, compositional data analysis, strain and functional rehabilitation, temporal and causal modeling, and hybrid mechanistic-data conditioning. The chapter addresses the addition of multi-omics, sensor, and environmental streams in digital twins to maximize productivity, welfare, and emissions, and real-time edge analytics and generative community design. It evaluates these dimensions of governance as data sovereignty, federated learning, fairness, interpretability, sustainability (green AI), security, provenance, and ethical-by-design protocols. The future involves multimodal foundation models, personalization, space, and single-cell alignment, and the convergence of precision nutrition, welfare metrics, and emission accounting to encourage the production of livestock in a sustainable and minimal way.
+ER  - 
+
+TY  - JOUR
+T1  - AI empowered 6G technologies and network layers: Recent trends, opportunities, and challenges
+AU  - Rashid, Harun Ur
+AU  - Jeong, Seong Ho
+JO  - Expert Systems with Applications
+VL  - 267
+SP  - 125985
+PY  - 2025
+DA  - 2025/04/01/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2024.125985
+UR  - https://www.sciencedirect.com/science/article/pii/S0957417424028525
+KW  - 6G
+KW  - AI
+KW  - 6G Technologies
+KW  - Physical layer
+KW  - Data link layer
+KW  - Network layer
+KW  - AI Challenges in 6G
+AB  - The exponential surge in demand for wireless connectivity has propelled the widespread deployment of 5G communication networks, catalyzing a transformative paradigm shift in user communication modes. However, to meet the evolving requirements for future applications, the next-generation network, known as 6G, is being envisioned. Building upon the advancements of its predecessor, 6G aims to transcend the limitations of 5G networks and introduce novel features and capabilities. This paper presents a comprehensive review of the potential research directions where artificial intelligence (AI) can substantially contribute to advancing 6G technologies. We specifically focus on the use of AI in emerging technologies such as terrestrial non-terrestrial network integration, mm Wave-THz band utilization, massive MIMO, D2D communication, network slicing and so on. Furthermore, our study investigates the integration of AI techniques across different network layers, including the physical, data link, and network layers. We explore the evolving trends in 6G development, highlighting the pivotal role of AI in shaping the future landscape of wireless communications. In addition, we address potential challenges and drawbacks such as technical, ethical and regulatory challenges associated with integrating AI mechanisms into 6G technologies. Our work aims to provide a comprehensive resource for researchers and industry professionals, offering profound insights into the vast potential and intricacies of AI-driven 6G networks. By emphasizing the pressing need for further exploration and innovation, we contribute to the ongoing discourse and development within this promising research domain.
+ER  - 
+
+TY  - JOUR
+T1  - From algorithms to digital transformation: a review of computational ecosystems for advanced process monitoring
+AU  - Ali, Husnain
+AU  - Cao, Zhixing
+AU  - Gao, Furong
+JO  - Journal of the Franklin Institute
+VL  - 363
+IS  - 17
+SP  - 109173
+PY  - 2026
+DA  - 2026/11/01/
+SN  - 0016-0032
+DO  - https://doi.org/10.1016/j.jfranklin.2026.109173
+UR  - https://www.sciencedirect.com/science/article/pii/S0016003226007660
+KW  - Advanced process monitoring
+KW  - Digital transformation
+KW  - Digital twin architectures
+KW  - Trustworthy artificial intelligence
+KW  - Hybrid modelling
+KW  - Industrial analytics
+AB  - Advanced process monitoring has evolved from a primarily statistical fault-surveillance activity into a broader digital capability that supports fault detection, diagnosis, soft sensing, root-cause reasoning, and decision support in increasingly complex industrial environments. Although recent research has significantly advanced understanding of probabilistic monitoring, artificial-intelligence-based monitoring, and other specialized methodological streams, the broader computational ecosystem that enables advanced process monitoring to function in practice remains insufficiently synthesized. In particular, existing reviews rarely provide a unified perspective that links plant connectivity, scientific computing, simulation, monitoring platforms, artificial intelligence frameworks, deployment pathways, and lifecycle management within a single coherent digital architecture. This review addresses that gap by reframing advanced process monitoring as a software-enabled systems discipline rather than only a model-development problem. The paper first traces the evolution of the field from statistical process control and multivariate statistical monitoring to deep learning, computational ecosystems, and digital transformation. It then develops a conceptual foundation for computational ecosystems in advanced process monitoring, proposes a six-layer architectural taxonomy, examines cross-layer interworking and integration mechanisms, and introduces a comparative framework for ecosystem evaluation based on functional suitability rather than software popularity alone. Building on this foundation, the review discusses emerging paradigms, including hybrid physics–data analytics, digital twin-centric monitoring, trustworthy artificial intelligence, adaptive cloud-edge monitoring, and generative-artificial-intelligence-assisted engineering workflows, while also identifying persistent barriers such as fragmented toolchains, weak interoperability, lifecycle immaturity, limited benchmarking realism, and insufficient domain-aware software design. Overall, the review argues that the next stage of progress in advanced process monitoring will depend not only on stronger algorithms but on stronger computational ecosystems capable of transforming plant data, process knowledge, and analytical intelligence into reliable, explainable, and sustainable industrial action.
+ER  - 
